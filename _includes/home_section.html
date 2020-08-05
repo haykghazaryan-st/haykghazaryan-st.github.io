@@ -1,32 +1,66 @@
 <!-- Start block company -->
-<article class="article with-border">
+<article class="article {% if include.with_border == true %}with-border {% endif %}">
   <div class="heading article-heading">
-    <h2>{{ include.title }}</h2>
-    <h5>{{ include.subtitle }}</h5>
+    <h2>{{ include.title | newline_to_br }}</h2>
+    <h5>{{ include.subtitle | newline_to_br }}</h5>
   </div>
   <div class="article-body">
-    <h5>We don’t just create solutions together</h5>
-    <h2 class="capitalize font-medium">we create memories together</h2>
-    {{ include.images }}
-    <!-- {% if include.images.size > 0 %} -->
+    <h5>{{ include.heading | newline_to_br }}</h5>
+    <h2 class="capitalize font-medium">
+      {{ include.subheading | newline_to_br }}
+    </h2>
+
+    {% if include.legend %}
+    <div class="legend">
+      <h6>{{ include.legend }}</h6>
+    </div>
+    {% endif %}
+
+    {% if include.icon_items.size > 0 %}
+    <div class="flex mt-8 flex-wrap -mx-16">
+      {% for icon_item in include.icon_items %}
+      <div class="w-2/6 mb-16 px-16">
+        <img src="{{ icon_item.image }}" alt="{{ icon_item.caption }}" />
+        <p class="text-sm capitalize">
+          {{ icon_item.caption }}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %} 
+    
+    {% if include.list.size > 0 %}
+
+    <h2 class="capitalize mb-6">{{ include.list_title | newline_to_br }}</h2>
+    <ul class="list-inside checkmark-list">
+      {% for item in include.list %}
+      <li>
+        <span>{{ item }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% endif %} {% if include.images.size > 0 %}
 
     <div class="team-slider cursor-pointer">
       {% for image in include.images %}
-      {{ image }}
       <div>
         <img class="w-full" src="{{ image }}" alt="Photo" />
       </div>
       {% endfor %}
     </div>
 
-    <!-- {% endif %} -->
+    {% endif %}
+
     <p>
-      {{ include.content }}
+      {{ include.content | newline_to_br }}
     </p>
+    {% if include.url %}
     <a href="{{ include.url }}" class="more">
       Learn more
-      <img src="/assets/icons/arrow_forward.svg" alt="Arrow" />
+      <img src="assets/icons/arrow_forward.svg" alt="Arrow" />
     </a>
+    {% endif %}
   </div>
 </article>
 <!-- End block company -->

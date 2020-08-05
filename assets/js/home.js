@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".team-slider").slick({
+  $(".slider").slick({
     slidesToShow: 2,
     appendArrows: $('.slider-arrows'),
     prevArrow: $('.slie-prev'),

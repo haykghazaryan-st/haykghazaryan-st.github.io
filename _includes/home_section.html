@@ -1,4 +1,4 @@
-<!-- Start block company -->
+<!-- Start block article -->
 <article class="article {% if include.with_border == true %}with-border {% endif %}">
   <div class="heading article-heading">
     <h2>{{ include.title | newline_to_br }}</h2>
@@ -41,8 +41,11 @@
     </ul>
 
     {% endif %} {% if include.images.size > 0 %}
-
-    <div class="team-slider cursor-pointer">
+    <div class="slider-arrows flex justify-end my-8">
+      <button class="slie-prev mr-4"><img src="assets/icons/arrow_left.svg" alt="Left arrow"></button>
+      <button class="slie-next"><img src="assets/icons/arrow_right.svg" alt="Right arrow"></button>
+    </div>
+    <div class="slider cursor-pointer mb-6">
       {% for image in include.images %}
       <div>
         <img class="w-full" src="{{ image }}" alt="Photo" />
@@ -63,4 +66,4 @@
     {% endif %}
   </div>
 </article>
-<!-- End block company -->
+<!-- End block article -->

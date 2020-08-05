@@ -8975,7 +8975,7 @@ h6 {
 }
 
 .checkmark-list {
-  list-style-image: url("/assets/icons/checkmark.svg");
+  list-style-image: url("assets/icons/checkmark.svg");
   text-transform: capitalize;
 }
 
@@ -8998,7 +8998,7 @@ h6 {
   display: inline-block;
   width: 48px;
   height: 48px;
-  background-image: url("/assets/icons/quote.svg");
+  background-image: url("assets/icons/quote.svg");
 }
 
 .quote::before {

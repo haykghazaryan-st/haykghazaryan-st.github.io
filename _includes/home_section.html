@@ -1,0 +1,32 @@
+<!-- Start block company -->
+<article class="article with-border">
+  <div class="heading article-heading">
+    <h2>{{ include.title }}</h2>
+    <h5>{{ include.subtitle }}</h5>
+  </div>
+  <div class="article-body">
+    <h5>We don’t just create solutions together</h5>
+    <h2 class="capitalize font-medium">we create memories together</h2>
+    {{ include.images }}
+    <!-- {% if include.images.size > 0 %} -->
+
+    <div class="team-slider cursor-pointer">
+      {% for image in include.images %}
+      {{ image }}
+      <div>
+        <img class="w-full" src="{{ image }}" alt="Photo" />
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- {% endif %} -->
+    <p>
+      {{ include.content }}
+    </p>
+    <a href="{{ include.url }}" class="more">
+      Learn more
+      <img src="/assets/icons/arrow_forward.svg" alt="Arrow" />
+    </a>
+  </div>
+</article>
+<!-- End block company -->

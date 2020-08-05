@@ -1,0 +1,7 @@
+<div class="gallery">
+    {% if include.images.size > 0 %}
+        {% for image in include.images %}
+            <img src="{{ image }}" />
+        {% endfor %}
+    {% endif %}
+</div>

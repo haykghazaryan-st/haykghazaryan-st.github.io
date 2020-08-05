@@ -1,0 +1,95 @@
+@tailwind base;
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 300;
+  src: url(fonts/Rubik/Rubik-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 400;
+  src: url(fonts/Rubik/Rubik-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 500;
+  src: url(fonts/Rubik/Rubik-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Rubik;
+  font-weight: 700;
+  src: url(fonts/Rubik/Rubik-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  src: url(fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  src: url(fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf) format("truetype");
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    62.8deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.78) 99.49%
+  );
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.checkmark-list {
+  list-style-image: url("/assets/icons/checkmark.svg");
+  @apply capitalize;
+}
+
+.checkmark-list li {
+  margin-bottom: 16px;
+}
+
+.checkmark-list li span {
+  margin-left: 25px;
+  @apply align-text-bottom;
+}
+
+.quote {
+  line-height: 2;
+}
+
+.quote::before,
+.quote::after {
+  content: "";
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-image: url("/assets/icons/quote.svg");
+}
+
+.quote::before {
+  position: relative;
+  top: 16px;
+  margin-left: -8px;
+}
+
+.quote::after {
+  vertical-align: top;
+  margin-top: -4px;
+}

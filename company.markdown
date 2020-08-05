@@ -2,7 +2,7 @@
 layout: page
 title: Company
 subtitle: Subtitle for company page
-permalink: /company/
+permalink: company
 ---
 
 This is a company page

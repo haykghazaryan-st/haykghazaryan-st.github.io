@@ -4,6 +4,7 @@ const { headingsBase, heading } = require('./plugins/headings');
 const article = require('./plugins/article');
 const legend = require('./plugins/legend');
 const bottomNav = require('./plugins/bottom-nav');
+const sidebar = require('./plugins/sidebar');
 
 module.exports = {
   purge: [],
@@ -59,6 +60,7 @@ module.exports = {
       addComponents(article(config));
       addComponents(legend(config));
       addComponents(bottomNav(config));
+      addComponents(sidebar(config));
     })
   ],
 }

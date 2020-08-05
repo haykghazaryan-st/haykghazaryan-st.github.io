@@ -1,5 +1,6 @@
 ---
 layout: home
+js: home
 ---
 
 {% include home_section.html 

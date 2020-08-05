@@ -737,6 +737,10 @@ h6 {
   border-bottom-color: #c4c4c4;
 }
 
+.article .article-body {
+  overflow: hidden;
+}
+
 .article .more {
   display: inline-flex;
   align-items: center;
@@ -9006,6 +9010,18 @@ h6 {
 .quote::after {
   vertical-align: top;
   margin-top: -4px;
+}
+
+/* the slides */
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+/* the parent */
+
+.slick-list {
+  margin: 0 -20px !important;
 }
 
 @media (min-width: 640px) {

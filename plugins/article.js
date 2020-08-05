@@ -10,6 +10,10 @@ module.exports = function (config) {
         borderBottomColor: config('theme.colors.gray'),
       },
 
+      '.article-body': {
+        overflow: 'hidden',
+      },
+
       '.more': {
         display: 'inline-flex',
         alignItems: 'center',

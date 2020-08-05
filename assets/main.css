@@ -793,6 +793,10 @@ h6 {
   width: 280px;
   flex-shrink: 0;
   margin-right: 4rem;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1rem;
 }
 
 .sidebar li:first-child a {

@@ -4,6 +4,10 @@ module.exports = function (config) {
       width: "280px",
       flexShrink: 0,
       marginRight: config("theme.spacing.16"),
+      overflow: 'auto',
+      position: '-webkit-sticky',
+      position: 'sticky',
+      top: config("theme.spacing.4"),
 
       li: {
 

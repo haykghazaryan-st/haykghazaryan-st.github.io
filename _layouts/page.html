@@ -7,20 +7,21 @@ layout: default
 <!-- Start main section -->
 <main aria-label="Content">
   <div class="container">
+    <div class="mt-10 heading page-heading">
+      {%- if page.title -%}
+      <h2>{{ page.title }}</h2>
+      {%- endif -%} {%- if page.subtitle -%}
+      <h5>{{ page.subtitle}}</h5>
+      {%- endif -%}
+    </div>
+    <section class="mt-10 leading-loose">
+      {{ content }}
+    </section>
 
-  <div class="mt-10 heading page-heading">
-    <h2>{{ page.title }}</h2>
-    <h5>{{ page.subtitle }}</h5>
-  </div>
-  <section class="mt-10 leading-loose">
-    {{ content }}
-  </section>
-  {%- include bottom_navigation.html prev=page.prev next=page.next -%}
-
+    {%- if page.prev or page.next -%} {%- include bottom_navigation.html
+    prev=page.prev next=page.next -%} {%- endif -%}
   </div>
 </main>
 <!-- End main section -->
 
-{%- include footer.html -%}
-
-{%- include footer_scripts.html -%}
+{%- include footer.html -%} {%- include footer_scripts.html -%}

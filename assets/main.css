@@ -707,6 +707,8 @@ h6 {
 }
 
 .heading.page-heading {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   border-bottom-width: 1px;
   border-bottom-color: #c4c4c4;
 }

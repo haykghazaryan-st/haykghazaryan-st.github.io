@@ -18,6 +18,8 @@ exports.heading = function (config) {
       paddingBottom: config('theme.spacing.10'),
 
       '&.page-heading': {
+        marginTop: config('theme.spacing.3'),
+        marginBottom: config('theme.spacing.3'),
         borderBottomWidth: config('theme.borderWidth.default'),
         borderBottomColor: config('theme.colors.gray'),
       },

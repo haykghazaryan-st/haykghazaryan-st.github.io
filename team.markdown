@@ -1,7 +1,7 @@
 ---
 layout: team
-title: Team
-subtitle: Subtitle for company page
+title: The team
+subtitle: Ride a rocket to unlimited<br> career success
 permalink: /team/
 js: team
 ---

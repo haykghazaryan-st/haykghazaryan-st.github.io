@@ -1,6 +1,6 @@
 ---
 layout: company
-title: Company
-subtitle: Subtitle for company page
+title: The Company
+subtitle: First Armenian-founded<br />tech unicorn
 permalink: company
 ---

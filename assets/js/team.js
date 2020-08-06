@@ -4,4 +4,11 @@ $(document).ready(function () {
             scrollTop: $(this.dataset.id).offset().top
         }, 300);
     });
+
+    $(".slider").slick({
+        slidesToShow: 2,
+        appendArrows: $('.slider-arrows'),
+        prevArrow: $('.slie-prev'),
+        nextArrow: $('.slie-next')
+      });
 });

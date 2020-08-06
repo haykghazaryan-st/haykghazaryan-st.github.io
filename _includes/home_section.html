@@ -1,34 +1,35 @@
 <!-- Start block article -->
-<article class="article {% if include.with_border == true %}with-border {% endif %}">
+<article
+  class="article {% if include.with_border == true %}with-border {% endif %}"
+>
   <div class="heading article-heading">
     {% if include.title %}
     <h2>{{ include.title | newline_to_br }}</h2>
-    {% endif %}
-    {% if include.subtitle %}
+    {% endif %} {% if include.subtitle %}
     <h5>{{ include.subtitle | newline_to_br }}</h5>
     {% endif %}
   </div>
   <div class="article-body">
     {% if include.heading %}
     <h5>{{ include.heading | newline_to_br }}</h5>
-    {% endif %}
-    {% if include.subheading %}
+    {% endif %} {% if include.subheading %}
     <h2 class="capitalize font-medium mb-6">
       {{ include.subheading | newline_to_br }}
     </h2>
-    {% endif %}
-    {% if include.legend %}
+    {% endif %} {% if include.legend %}
     <div class="legend">
       <h6>{{ include.legend }}</h6>
     </div>
-    {% endif %}
-
-    {% if include.icon_items.size > 0 %}
+    {% endif %} {% if include.icon_items.size > 0 %}
     <div class="flex mt-8 flex-wrap -mx-16">
       {% for icon_item in include.icon_items %}
       <div class="w-2/6 mb-16 px-16">
         <div class="h-40">
-          <img class="max-h-full max-w-full" src="{{ icon_item.image }}" alt="{{ icon_item.caption }}" />
+          <img
+            class="max-h-full max-w-full"
+            src="{{ icon_item.image }}"
+            alt="{{ icon_item.caption }}"
+          />
         </div>
         <p class="text-sm capitalize">
           {{ icon_item.caption }}
@@ -36,9 +37,7 @@
       </div>
       {% endfor %}
     </div>
-    {% endif %} 
-    
-    {% if include.list.size > 0 %}
+    {% endif %} {% if include.list.size > 0 %}
 
     <h2 class="capitalize mb-6">{{ include.list_title | newline_to_br }}</h2>
     <ul class="list-inside checkmark-list">
@@ -49,20 +48,8 @@
       {% endfor %}
     </ul>
 
-    {% endif %} {% if include.images.size > 0 %}
-    <div class="slider-arrows flex justify-end my-8">
-      <button class="slie-prev mr-4"><img src="assets/icons/arrow_left.svg" alt="Left arrow"></button>
-      <button class="slie-next"><img src="assets/icons/arrow_right.svg" alt="Right arrow"></button>
-    </div>
-    <div class="slider cursor-pointer mb-6">
-      {% for image in include.images %}
-      <div>
-        <img class="w-full" src="{{ image }}" alt="Photo" />
-      </div>
-      {% endfor %}
-    </div>
-
-    {% endif %}
+    {% endif %} 
+    {% include slider.html images=include.images %}
 
     <p>
       {{ include.content | newline_to_br }}

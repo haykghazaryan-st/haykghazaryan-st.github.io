@@ -19,11 +19,9 @@ plumbing, HVAC, and electrical companies.
 
 {% include youtubePlayer.html id="1ugivNRYfjc" %}
 
-
 Sometimes ServiceTitan itself is mistaken for a home services company. Still, in
 reality, we provide a cutting edge software platform using the latest and greatest technologies for
 thousands of the world's most successful companies in the trades.
-
 
 Now ServiceTitan is the world’s leading and fastest-growing software technology platform
 for the trades, a trillion-dollar global industry. We help small business entrepreneurs run and grow

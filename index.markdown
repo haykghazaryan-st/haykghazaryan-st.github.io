@@ -51,3 +51,8 @@ js: home
     subheading=site.data.home.relocation.subheading
     list=site.data.home.relocation.list
 %}
+
+{% include testimonials.html
+    legend=site.data.home.testimonials.legend
+    testimonials=site.data.home.testimonials.testimonials
+%}

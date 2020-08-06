@@ -79,11 +79,12 @@
           {%- if page_paths -%}
           <ul class="flex items-center uppercase font-bold text-xs">
 
-            {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
+            {%- for path in site.data.navigation -%}
+              {%- if path.title -%}
               <li>
-                <a href="{{ my_page.url | relative_url }}" class="block text-white border-b-4 border-white pb-3 mr-6">{{ my_page.title | escape }}</a>
+                <a href="{{ path.url | relative_url }}" class="block text-white {% if path.url == page.url %}border-b-4 border-white{% endif %} pb-3 mr-6">
+                  {{ path.title | escape }}
+                </a>
               </li>
               {%- endif -%}
             {%- endfor -%}

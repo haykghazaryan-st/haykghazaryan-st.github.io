@@ -1,15 +1,22 @@
 <!-- Start block article -->
 <article class="article {% if include.with_border == true %}with-border {% endif %}">
   <div class="heading article-heading">
+    {% if include.title %}
     <h2>{{ include.title | newline_to_br }}</h2>
+    {% endif %}
+    {% if include.subtitle %}
     <h5>{{ include.subtitle | newline_to_br }}</h5>
+    {% endif %}
   </div>
   <div class="article-body">
+    {% if include.heading %}
     <h5>{{ include.heading | newline_to_br }}</h5>
+    {% endif %}
+    {% if include.subheading %}
     <h2 class="capitalize font-medium mb-6">
       {{ include.subheading | newline_to_br }}
     </h2>
-
+    {% endif %}
     {% if include.legend %}
     <div class="legend">
       <h6>{{ include.legend }}</h6>

@@ -15,11 +15,11 @@ exports.headingsBase = function (config) {
 exports.heading = function (config) {
   return {
     '.heading': {
-      paddingBottom: config('theme.spacing.10'),
+      paddingBottom: config('theme.spacing.0'),
 
       '&.page-heading': {
-        marginTop: config('theme.spacing.3'),
-        marginBottom: config('theme.spacing.3'),
+        marginTop: config('theme.spacing.20'),
+        marginBottom: config('theme.spacing.10'),
         borderBottomWidth: config('theme.borderWidth.default'),
         borderBottomColor: config('theme.colors.gray'),
       },

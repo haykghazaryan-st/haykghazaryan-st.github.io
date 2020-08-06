@@ -117,15 +117,3 @@
   width:100%;
   position:absolute;
 }
-
-.post-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -16px;
-  margin-right: -16px;
-}
-
-.post-list > li {
-  padding-left: 16px;
-  padding-right: 16px;
-}

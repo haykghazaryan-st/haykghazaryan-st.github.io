@@ -4,12 +4,16 @@
 {%- include head.html -%}
 
 <body>
+  
+  <div class="flex flex-col h-screen">
+    {%- include header.html -%}
 
-  {%- include header.html -%}
-
-  {{ content }}
-
-  {%- include footer.html -%} {%- include footer_scripts.html -%}
+    <div class="flex-1">
+      {{ content }}
+    </div>
+  
+    {%- include footer.html -%} {%- include footer_scripts.html -%}
+  </div>
 
 </body>
 

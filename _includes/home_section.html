@@ -6,7 +6,7 @@
   </div>
   <div class="article-body">
     <h5>{{ include.heading | newline_to_br }}</h5>
-    <h2 class="capitalize font-medium">
+    <h2 class="capitalize font-medium mb-6">
       {{ include.subheading | newline_to_br }}
     </h2>
 
@@ -20,7 +20,9 @@
     <div class="flex mt-8 flex-wrap -mx-16">
       {% for icon_item in include.icon_items %}
       <div class="w-2/6 mb-16 px-16">
-        <img src="{{ icon_item.image }}" alt="{{ icon_item.caption }}" />
+        <div class="h-40">
+          <img class="max-h-full max-w-full" src="{{ icon_item.image }}" alt="{{ icon_item.caption }}" />
+        </div>
         <p class="text-sm capitalize">
           {{ icon_item.caption }}
         </p>

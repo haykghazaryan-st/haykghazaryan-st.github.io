@@ -48,7 +48,10 @@ module.exports = {
       },
       spacing: {
         100: '25rem'
-      }
+      },
+      maxHeight: {
+        40: '160px'
+      },
     }
   },
   variants: {},

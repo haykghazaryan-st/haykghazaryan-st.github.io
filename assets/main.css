@@ -4140,6 +4140,10 @@ h6 {
   margin-left: -1px;
 }
 
+.max-h-40 {
+  max-height: 160px;
+}
+
 .max-h-full {
   max-height: 100%;
 }
@@ -9050,6 +9054,18 @@ h6 {
   position:absolute;
 }
 
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.post-list > li {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -12389,6 +12405,10 @@ h6 {
 
   .sm\:-ml-px {
     margin-left: -1px;
+  }
+
+  .sm\:max-h-40 {
+    max-height: 160px;
   }
 
   .sm\:max-h-full {
@@ -20471,6 +20491,10 @@ h6 {
     margin-left: -1px;
   }
 
+  .md\:max-h-40 {
+    max-height: 160px;
+  }
+
   .md\:max-h-full {
     max-height: 100%;
   }
@@ -28551,6 +28575,10 @@ h6 {
     margin-left: -1px;
   }
 
+  .lg\:max-h-40 {
+    max-height: 160px;
+  }
+
   .lg\:max-h-full {
     max-height: 100%;
   }
@@ -36629,6 +36657,10 @@ h6 {
 
   .xl\:-ml-px {
     margin-left: -1px;
+  }
+
+  .xl\:max-h-40 {
+    max-height: 160px;
   }
 
   .xl\:max-h-full {

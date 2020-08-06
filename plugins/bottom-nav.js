@@ -15,7 +15,21 @@ module.exports = function bottomNav(config) {
                 'a': {
                     fontWeight: config('theme.fontWeight.bold'),
                     lineHeight: '24px',
-                    textTransform: 'uppercase'
+                    textTransform: 'uppercase',
+                    display: 'flex',
+                    alignItems: 'center',
+
+                    '&.back': {
+                        'img': {
+                            marginRight: config('theme.spacing.4')
+                        }
+                    },
+
+                    '&.forward': {
+                        'img': {
+                            marginLeft: config('theme.spacing.4')
+                        }
+                    }
                 }
             }
         }

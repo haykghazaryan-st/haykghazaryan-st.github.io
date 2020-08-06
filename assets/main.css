@@ -791,6 +791,16 @@ h6 {
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-nav nav a.back img {
+  margin-right: 1rem;
+}
+
+.bottom-nav nav a.forward img {
+  margin-left: 1rem;
 }
 
 .sidebar {

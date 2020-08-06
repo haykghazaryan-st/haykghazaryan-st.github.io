@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Company
+title: Company
 subtitle: First Armenian-founded<br />tech unicorn
 permalink: company
 prev: 

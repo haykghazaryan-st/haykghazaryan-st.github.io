@@ -46,11 +46,17 @@ module.exports = {
       width: {
         '35/2': '17.5rem'
       },
+      height: {
+        '88': '22rem'
+      },
       spacing: {
         100: '25rem'
       },
       maxHeight: {
         40: '160px'
+      },
+      minHeight: {
+        '88': '22rem'
       },
     }
   },

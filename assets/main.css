@@ -2806,6 +2806,10 @@ h6 {
   height: 16rem;
 }
 
+.h-88 {
+  height: 22rem;
+}
+
 .h-100 {
   height: 25rem;
 }
@@ -4220,6 +4224,10 @@ h6 {
 
 .min-h-0 {
   min-height: 0;
+}
+
+.min-h-88 {
+  min-height: 22rem;
 }
 
 .min-h-full {
@@ -11062,6 +11070,10 @@ h6 {
     height: 16rem;
   }
 
+  .sm\:h-88 {
+    height: 22rem;
+  }
+
   .sm\:h-100 {
     height: 25rem;
   }
@@ -12476,6 +12488,10 @@ h6 {
 
   .sm\:min-h-0 {
     min-height: 0;
+  }
+
+  .sm\:min-h-88 {
+    min-height: 22rem;
   }
 
   .sm\:min-h-full {
@@ -19146,6 +19162,10 @@ h6 {
     height: 16rem;
   }
 
+  .md\:h-88 {
+    height: 22rem;
+  }
+
   .md\:h-100 {
     height: 25rem;
   }
@@ -20560,6 +20580,10 @@ h6 {
 
   .md\:min-h-0 {
     min-height: 0;
+  }
+
+  .md\:min-h-88 {
+    min-height: 22rem;
   }
 
   .md\:min-h-full {
@@ -27230,6 +27254,10 @@ h6 {
     height: 16rem;
   }
 
+  .lg\:h-88 {
+    height: 22rem;
+  }
+
   .lg\:h-100 {
     height: 25rem;
   }
@@ -28644,6 +28672,10 @@ h6 {
 
   .lg\:min-h-0 {
     min-height: 0;
+  }
+
+  .lg\:min-h-88 {
+    min-height: 22rem;
   }
 
   .lg\:min-h-full {
@@ -35314,6 +35346,10 @@ h6 {
     height: 16rem;
   }
 
+  .xl\:h-88 {
+    height: 22rem;
+  }
+
   .xl\:h-100 {
     height: 25rem;
   }
@@ -36728,6 +36764,10 @@ h6 {
 
   .xl\:min-h-0 {
     min-height: 0;
+  }
+
+  .xl\:min-h-88 {
+    min-height: 22rem;
   }
 
   .xl\:min-h-full {

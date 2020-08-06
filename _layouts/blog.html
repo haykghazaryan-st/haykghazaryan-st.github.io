@@ -4,23 +4,48 @@ layout: page
 
 <div>
 
-  {%- if site.posts.size > 0 -%}
-  <ul class="flex flex-wrap -ml-4 -mr-4">
-    {%- for post in site.posts -%}
-    <li class="pl-4 pr-4 w-1/3 mb-6 overflow-hidden">
-      <div class="mb-5 bg-cover h-56 rounded-t-md" style="background-image: url({{post.img}});">&nbsp;</div>
-      <div>
+  {%- if site.posts.first -%}
+  {%- assign first_post = site.posts.first -%}
+  <div class="mb-10">
+    <article class="flex -ml-4 -mr-4">
+      <div class="mb-5 w-2/3 pl-4 pr-4">
+        <div class="bg-cover rounded-md min-h-88 h-full" style="background-image: url({{first_post.img}});"></div>
+      </div>
+      <div class="w-1/3 pl-4 pr-4 pb-4">
         <h5>
-          <a class="font-bold hover:underline" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a class="font-bold hover:underline" href="{{ first_post.url | relative_url }}">
+            {{ first_post.title | escape }}
           </a>
         </h5>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="text-gray text-xs">{{ post.date | date: date_format }}</span>
+        <span class="text-gray text-xs">{{ first_post.date | date: date_format }}</span>
         <p class="text-sm mt-1">
-          {{ post.excerpt }}
+          {{ first_post.excerpt }}
         </p>
       </div>
+    </article>
+  </div>
+  {%- endif -%}
+
+  {%- if site.posts.size > 0 -%}
+  <ul class="flex flex-wrap -ml-4 -mr-4">
+    {%- for post in site.posts offset:1 -%}
+    <li class="pl-4 pr-4 w-1/3 mb-6">
+      <article>
+        <div class="mb-5 bg-cover h-56 rounded-t-md" style="background-image: url({{post.img}});">&nbsp;</div>
+        <div>
+          <h5>
+            <a class="font-bold hover:underline" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h5>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="text-gray text-xs">{{ post.date | date: date_format }}</span>
+          <p class="text-sm mt-1">
+            {{ post.excerpt }}
+          </p>
+        </div>
+      </article>
     </li>
     {%- endfor -%}
   </ul>

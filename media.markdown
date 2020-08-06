@@ -1,5 +1,5 @@
 ---
 layout: media
 title: Media
-permalink: /media/
+permalink: media
 ---

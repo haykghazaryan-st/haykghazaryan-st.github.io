@@ -1,29 +1,25 @@
 ---
-layout: default
+layout: page
+title: Media
 ---
 
-<div>
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
+<div class="mt-10">
 
   {%- if site.data.media.size > 0 -%}
-    <ul class="post-list">
-      {%- for media in site.data.media -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <img src="{{ media.image | relative_url }}" alt="{{ media.title }}" />
-        <h3>
-          <a class="post-link" href="{{ media.url | relative_url }}" target="_blank">
+  <ul class="flex flex-wrap -ml-4 -mr-4">
+    {%- for media in site.data.media -%}
+    <li class="pl-4 pr-4 w-1/3 mb-6 overflow-hidden">
+      <div class="mb-5 bg-cover h-56 rounded-t-md" style="background-image: url({{media.image}});">&nbsp;</div>
+      <div>
+        <h5>
+          <a class="font-bold hover:underline" href="{{ media.url | relative_url }}" target="_blank">
             {{ media.title | escape }}
           </a>
-        </h3>
-      </li>
-      {%- endfor -%}
-    </ul>
+        </h5>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>
   {%- endif -%}
 
 </div>

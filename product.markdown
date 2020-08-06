@@ -1,14 +1,14 @@
 ---
 layout: page
-title: The Company
-subtitle: First Armenian-founded<br />tech unicorn
-permalink: company
+title: Product
+subtitle: Grow your business with the N1 field service software.
+permalink: product
 prev: 
-    name: Home
-    page: /
+    name: Company
+    page: /company
 next: 
-    name: Product
-    page: /product
+    name: Team
+    page: /team
 ---
 
 

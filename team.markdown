@@ -8,8 +8,8 @@ prev:
   name: Company
   page: /company
 next:
-  name: Media
-  page: /media
+  name: Blog
+  page: /blog
 images:
   - /assets/photos/photo1.png
   - /assets/photos/photo2.png

@@ -9035,6 +9035,21 @@ h6 {
   margin: 0 -20px !important;
 }
 
+.embed-container {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.embed-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

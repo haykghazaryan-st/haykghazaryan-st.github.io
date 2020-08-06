@@ -1,19 +1,17 @@
 {% if include.images.size > 0 %}
-<div class="overflow-hidden">
-  <div class="slider-arrows flex justify-end my-8">
-    <button class="slie-prev mr-4">
-      <img src="/assets/icons/arrow_left.svg" alt="Left arrow" />
-    </button>
-    <button class="slie-next">
-      <img src="/assets/icons/arrow_right.svg" alt="Right arrow" />
-    </button>
+<div class="slider-arrows flex justify-end my-8">
+  <button class="slie-prev mr-4">
+    <img src="/assets/icons/arrow_left.svg" alt="Left arrow" />
+  </button>
+  <button class="slie-next">
+    <img src="/assets/icons/arrow_right.svg" alt="Right arrow" />
+  </button>
+</div>
+<div class="slider cursor-pointer mb-6">
+  {% for image in include.images %}
+  <div>
+    <img class="w-full" src="{{ image }}" alt="Photo" />
   </div>
-  <div class="slider cursor-pointer mb-6">
-    {% for image in include.images %}
-    <div>
-      <img class="w-full" src="{{ image }}" alt="Photo" />
-    </div>
-    {% endfor %}
-  </div>
+  {% endfor %}
 </div>
 {% endif %}

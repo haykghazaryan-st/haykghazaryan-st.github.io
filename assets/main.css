@@ -8986,7 +8986,7 @@ h6 {
 }
 
 .checkmark-list {
-  list-style-image: url("assets/icons/checkmark.svg");
+  list-style-image: url("/assets/icons/checkmark.svg");
   text-transform: capitalize;
 }
 

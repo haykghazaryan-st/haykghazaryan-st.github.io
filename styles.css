@@ -57,7 +57,7 @@
 }
 
 .checkmark-list {
-  list-style-image: url("assets/icons/checkmark.svg");
+  list-style-image: url("/assets/icons/checkmark.svg");
   @apply capitalize;
 }
 

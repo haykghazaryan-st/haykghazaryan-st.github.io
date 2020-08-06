@@ -109,6 +109,7 @@
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  margin: 24px 0;
 }
 .embed-container iframe{
   left:0;

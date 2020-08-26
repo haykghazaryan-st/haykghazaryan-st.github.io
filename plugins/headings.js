@@ -39,7 +39,7 @@ exports.heading = function (config) {
       },
 
       h5: {
-        textTransform: "uppercase",
+        textTransform: "capitalize",
       },
     },
   };

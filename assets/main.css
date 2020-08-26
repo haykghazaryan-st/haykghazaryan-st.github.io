@@ -728,7 +728,7 @@ h6 {
 }
 
 .heading h5 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .article {
@@ -2831,6 +2831,10 @@ h6 {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-9\/2 {
+  height: 4.5rem;
 }
 
 .text-xs {
@@ -6331,6 +6335,10 @@ h6 {
 
 .w-35\/2 {
   width: 17.5rem;
+}
+
+.w-9\/2 {
+  width: 4.5rem;
 }
 
 .z-0 {
@@ -11097,6 +11105,10 @@ h6 {
     height: 100vh;
   }
 
+  .sm\:h-9\/2 {
+    height: 4.5rem;
+  }
+
   .sm\:text-xs {
     font-size: 14px;
   }
@@ -14595,6 +14607,10 @@ h6 {
 
   .sm\:w-35\/2 {
     width: 17.5rem;
+  }
+
+  .sm\:w-9\/2 {
+    width: 4.5rem;
   }
 
   .sm\:z-0 {
@@ -19189,6 +19205,10 @@ h6 {
     height: 100vh;
   }
 
+  .md\:h-9\/2 {
+    height: 4.5rem;
+  }
+
   .md\:text-xs {
     font-size: 14px;
   }
@@ -22687,6 +22707,10 @@ h6 {
 
   .md\:w-35\/2 {
     width: 17.5rem;
+  }
+
+  .md\:w-9\/2 {
+    width: 4.5rem;
   }
 
   .md\:z-0 {
@@ -27281,6 +27305,10 @@ h6 {
     height: 100vh;
   }
 
+  .lg\:h-9\/2 {
+    height: 4.5rem;
+  }
+
   .lg\:text-xs {
     font-size: 14px;
   }
@@ -30779,6 +30807,10 @@ h6 {
 
   .lg\:w-35\/2 {
     width: 17.5rem;
+  }
+
+  .lg\:w-9\/2 {
+    width: 4.5rem;
   }
 
   .lg\:z-0 {
@@ -35373,6 +35405,10 @@ h6 {
     height: 100vh;
   }
 
+  .xl\:h-9\/2 {
+    height: 4.5rem;
+  }
+
   .xl\:text-xs {
     font-size: 14px;
   }
@@ -38871,6 +38907,10 @@ h6 {
 
   .xl\:w-35\/2 {
     width: 17.5rem;
+  }
+
+  .xl\:w-9\/2 {
+    width: 4.5rem;
   }
 
   .xl\:z-0 {

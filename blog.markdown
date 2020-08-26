@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Blog
+title: ServiceTitan Blog
 list_title: Posts
 permalink: blog
 prev:

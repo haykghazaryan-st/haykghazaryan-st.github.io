@@ -20,6 +20,7 @@ exports.heading = function (config) {
       "&.page-heading": {
         marginTop: config("theme.spacing.20"),
         marginBottom: config("theme.spacing.10"),
+        paddingBottom: config("theme.spacing.8"),
         borderBottomWidth: config("theme.borderWidth.default"),
         borderBottomColor: config("theme.colors.gray"),
 

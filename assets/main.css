@@ -9196,6 +9196,16 @@ h6 {
   position: absolute;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky ~ main {
+  padding-top: 49px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

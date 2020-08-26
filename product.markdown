@@ -3,14 +3,14 @@ layout: page
 title: Product
 subtitle: Grow your business with the N1 field service software.
 permalink: product
-prev: 
-    name: Company
-    page: /company
-next: 
-    name: Team
-    page: /team
+prev:
+  name: Company
+  page: /company
+next:
+  name: Team
+  page: /team
+container_class: container-small
 ---
-
 
 ServiceTitan's end-to-end solution includes CRM, intelligent dispatch, custom reporting,
 marketing automation, a mobile solution for field techs, and accounting integrations with Sage

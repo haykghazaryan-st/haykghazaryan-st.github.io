@@ -2,10 +2,11 @@
 layout: media
 title: Media
 permalink: media
-prev: 
-    name: Blog
-    page: /blog
-next: 
-    name: Home
-    page: /
+prev:
+  name: Blog
+  page: /blog
+next:
+  name: Home
+  page: /
+container_class: container
 ---

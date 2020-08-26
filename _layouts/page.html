@@ -4,7 +4,7 @@ layout: default
 
 <!-- Start main section -->
 <main aria-label="Content">
-  <div class="container">
+  <div class="{{ page.container_class }}">
     <div class="heading page-heading">
       {%- if page.title -%}
       <h2>{{ page.title }}</h2>
@@ -12,9 +12,7 @@ layout: default
       <h5>{{ page.subtitle}}</h5>
       {%- endif -%}
     </div>
-    <section class="leading-loose">
-      {{ content }}
-    </section>
+    <section class="leading-loose">{{ content }}</section>
 
     {%- if page.prev or page.next -%} {%- include bottom_navigation.html
     prev=page.prev next=page.next -%} {%- endif -%}

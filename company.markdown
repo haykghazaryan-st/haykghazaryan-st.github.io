@@ -3,14 +3,14 @@ layout: page
 title: Company
 subtitle: First Armenian-founded<br />tech unicorn
 permalink: company
-prev: 
-    name: Home
-    page: /
-next: 
-    name: Product
-    page: /product
+prev:
+  name: Home
+  page: /
+next:
+  name: Product
+  page: /product
+container_class: container-small
 ---
-
 
 ServiceTitan's end-to-end solution includes CRM, intelligent dispatch, custom reporting,
 marketing automation, a mobile solution for field techs, and accounting integrations with Sage

@@ -15,6 +15,7 @@ images:
   - /assets/photos/photo2.png
   - /assets/photos/photo1.png
   - /assets/photos/photo2.png
+container_class: container
 ---
 
 At ServiceTitan Armenia we are driven by a common set of values that compel us to give our work all we've

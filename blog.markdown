@@ -9,4 +9,5 @@ prev:
 next:
   name: Media
   page: /media
+container_class: container
 ---

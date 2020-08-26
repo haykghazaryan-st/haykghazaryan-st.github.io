@@ -40,28 +40,38 @@
     <div class="flex items-center justify-between">
       <ul class="text-xxs flex flex-wrap">
         <li class="mb-2 mr-4">
-          <img
-            class="inline-block mr-2 align-middle"
-            src="/assets/icons/mail.svg"
-            alt="Mail"
-          />
-          armenia@servicetitan.com
+          <a class="hover:underline" href="mailto:armenia@servicetitan.com"
+            ><img
+              class="inline-block mr-2 align-middle"
+              src="/assets/icons/mail.svg"
+              alt="Mail"
+            />
+            <span>armenia@servicetitan.com</span>
+          </a>
         </li>
         <li class="mb-2">
-          <img
-            class="inline-block mr-2 align-middle"
-            src="/assets/icons/phone.svg"
-            alt="Phone"
-          />
-          099 09 40 95
+          <a class="hover:underline" href="tel:099 09 40 95">
+            <img
+              class="inline-block mr-2 align-middle"
+              src="/assets/icons/phone.svg"
+              alt="Phone"
+            />
+            <span>099 09 40 95</span>
+          </a>
         </li>
         <li class="w-full">
-          <img
-            class="inline-block mr-2 align-middle"
-            src="/assets/icons/pin.svg"
-            alt="Pin"
-          />
-          2/2 Melik Adamyan Street, 3rd floor, Yerevan, Armenia
+          <a
+            class="hover:underline"
+            target="_blank"
+            href="https://www.google.com/maps/place/ServiceTitan+Armenia/@40.1770767,44.5150681,18.9z/data=!4m5!3m4!1s0x406abdfe9a94298d:0x95d2ffd1ce3d8d0b!8m2!3d40.1770739!4d44.5153023"
+          >
+            <img
+              class="inline-block mr-2 align-middle"
+              src="/assets/icons/pin.svg"
+              alt="Pin"
+            />
+            <span>2/2 Melik Adamyan Street, 3rd floor, Yerevan, Armenia</span>
+          </a>
         </li>
       </ul>
       <div class="flex items-center justify-end">
@@ -89,7 +99,7 @@
         </ul>
         <div class="flex-shrink-0 ml-5">
           <div>
-            <label class="block mb-2" for="subsciption_email"
+            <label class="block mb-2 text-xs" for="subsciption_email"
               >Get our weekly newsletter
             </label>
           </div>

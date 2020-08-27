@@ -21,7 +21,10 @@ layout: page
         </div>
         <div>
           <h6 class="capitalize">
-            <a class="hover:underline" href="{{ post.url | relative_url }}">
+            <a
+              class="hover:underline line-clamp h-30"
+              href="{{ post.url | relative_url }}"
+            >
               {{ post.title | escape }}
             </a>
           </h6>

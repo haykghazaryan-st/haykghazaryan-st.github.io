@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Փորձնական հրապարակում"
+title: "Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title"
 date: 2020-08-01 13:30:13 +0400
 categories: jekyll update
 excerpt: What text editor to use?

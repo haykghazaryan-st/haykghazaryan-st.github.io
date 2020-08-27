@@ -2832,6 +2832,10 @@ h6 {
   height: 6rem;
 }
 
+.h-30 {
+  height: 7.5rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -9206,6 +9210,13 @@ h6 {
   padding-top: 49px;
 }
 
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -11231,6 +11242,10 @@ h6 {
 
   .sm\:h-24 {
     height: 6rem;
+  }
+
+  .sm\:h-30 {
+    height: 7.5rem;
   }
 
   .sm\:h-32 {
@@ -19445,6 +19460,10 @@ h6 {
     height: 6rem;
   }
 
+  .md\:h-30 {
+    height: 7.5rem;
+  }
+
   .md\:h-32 {
     height: 8rem;
   }
@@ -27657,6 +27676,10 @@ h6 {
     height: 6rem;
   }
 
+  .lg\:h-30 {
+    height: 7.5rem;
+  }
+
   .lg\:h-32 {
     height: 8rem;
   }
@@ -35867,6 +35890,10 @@ h6 {
 
   .xl\:h-24 {
     height: 6rem;
+  }
+
+  .xl\:h-30 {
+    height: 7.5rem;
   }
 
   .xl\:h-32 {

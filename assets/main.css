@@ -780,6 +780,15 @@ h6 {
   width: 100%;
 }
 
+.legend.legend-center::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #c4c4c4;
+  margin-right: 2rem;
+  width: 100%;
+}
+
 .bottom-nav {
   padding: 3rem 0;
   margin-top: 4rem;
@@ -5662,11 +5671,45 @@ h6 {
   position: sticky;
 }
 
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.inset-auto {
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+
 .inset-1\/2 {
   top: 50%;
   right: 50%;
   bottom: 50%;
   left: 50%;
+}
+
+.inset-y-0 {
+  top: 0;
+  bottom: 0;
+}
+
+.inset-x-0 {
+  right: 0;
+  left: 0;
+}
+
+.inset-y-auto {
+  top: auto;
+  bottom: auto;
+}
+
+.inset-x-auto {
+  right: auto;
+  left: auto;
 }
 
 .inset-y-1\/2 {
@@ -5677,6 +5720,38 @@ h6 {
 .inset-x-1\/2 {
   right: 50%;
   left: 50%;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.top-auto {
+  top: auto;
+}
+
+.right-auto {
+  right: auto;
+}
+
+.bottom-auto {
+  bottom: auto;
+}
+
+.left-auto {
+  left: auto;
 }
 
 .top-1\/2 {
@@ -6448,6 +6523,10 @@ h6 {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-1px {
+  width: 1px;
 }
 
 .w-35\/2 {
@@ -9136,16 +9215,21 @@ h6 {
 
 .checkmark-list {
   list-style-image: url("/assets/icons/checkmark.svg");
+  padding-left: 2rem;
   text-transform: capitalize;
 }
 
 .checkmark-list li {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
 }
 
-.checkmark-list li span {
-  margin-left: 25px;
+.checkmark-list li p {
+  margin-left: 1.25rem;
   vertical-align: text-bottom;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -0.5rem;
 }
 
 .quote {
@@ -14074,11 +14158,45 @@ h6 {
     position: sticky;
   }
 
+  .sm\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .sm\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
   .sm\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .sm\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .sm\:inset-x-0 {
+    right: 0;
+    left: 0;
+  }
+
+  .sm\:inset-y-auto {
+    top: auto;
+    bottom: auto;
+  }
+
+  .sm\:inset-x-auto {
+    right: auto;
+    left: auto;
   }
 
   .sm\:inset-y-1\/2 {
@@ -14089,6 +14207,38 @@ h6 {
   .sm\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .sm\:top-0 {
+    top: 0;
+  }
+
+  .sm\:right-0 {
+    right: 0;
+  }
+
+  .sm\:bottom-0 {
+    bottom: 0;
+  }
+
+  .sm\:left-0 {
+    left: 0;
+  }
+
+  .sm\:top-auto {
+    top: auto;
+  }
+
+  .sm\:right-auto {
+    right: auto;
+  }
+
+  .sm\:bottom-auto {
+    bottom: auto;
+  }
+
+  .sm\:left-auto {
+    left: auto;
   }
 
   .sm\:top-1\/2 {
@@ -14860,6 +15010,10 @@ h6 {
 
   .sm\:w-screen {
     width: 100vw;
+  }
+
+  .sm\:w-1px {
+    width: 1px;
   }
 
   .sm\:w-35\/2 {
@@ -22290,11 +22444,45 @@ h6 {
     position: sticky;
   }
 
+  .md\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .md\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
   .md\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .md\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .md\:inset-x-0 {
+    right: 0;
+    left: 0;
+  }
+
+  .md\:inset-y-auto {
+    top: auto;
+    bottom: auto;
+  }
+
+  .md\:inset-x-auto {
+    right: auto;
+    left: auto;
   }
 
   .md\:inset-y-1\/2 {
@@ -22305,6 +22493,38 @@ h6 {
   .md\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .md\:top-0 {
+    top: 0;
+  }
+
+  .md\:right-0 {
+    right: 0;
+  }
+
+  .md\:bottom-0 {
+    bottom: 0;
+  }
+
+  .md\:left-0 {
+    left: 0;
+  }
+
+  .md\:top-auto {
+    top: auto;
+  }
+
+  .md\:right-auto {
+    right: auto;
+  }
+
+  .md\:bottom-auto {
+    bottom: auto;
+  }
+
+  .md\:left-auto {
+    left: auto;
   }
 
   .md\:top-1\/2 {
@@ -23076,6 +23296,10 @@ h6 {
 
   .md\:w-screen {
     width: 100vw;
+  }
+
+  .md\:w-1px {
+    width: 1px;
   }
 
   .md\:w-35\/2 {
@@ -30506,11 +30730,45 @@ h6 {
     position: sticky;
   }
 
+  .lg\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .lg\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
   .lg\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .lg\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .lg\:inset-x-0 {
+    right: 0;
+    left: 0;
+  }
+
+  .lg\:inset-y-auto {
+    top: auto;
+    bottom: auto;
+  }
+
+  .lg\:inset-x-auto {
+    right: auto;
+    left: auto;
   }
 
   .lg\:inset-y-1\/2 {
@@ -30521,6 +30779,38 @@ h6 {
   .lg\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .lg\:top-0 {
+    top: 0;
+  }
+
+  .lg\:right-0 {
+    right: 0;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0;
+  }
+
+  .lg\:left-0 {
+    left: 0;
+  }
+
+  .lg\:top-auto {
+    top: auto;
+  }
+
+  .lg\:right-auto {
+    right: auto;
+  }
+
+  .lg\:bottom-auto {
+    bottom: auto;
+  }
+
+  .lg\:left-auto {
+    left: auto;
   }
 
   .lg\:top-1\/2 {
@@ -31292,6 +31582,10 @@ h6 {
 
   .lg\:w-screen {
     width: 100vw;
+  }
+
+  .lg\:w-1px {
+    width: 1px;
   }
 
   .lg\:w-35\/2 {
@@ -38722,11 +39016,45 @@ h6 {
     position: sticky;
   }
 
+  .xl\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .xl\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
   .xl\:inset-1\/2 {
     top: 50%;
     right: 50%;
     bottom: 50%;
     left: 50%;
+  }
+
+  .xl\:inset-y-0 {
+    top: 0;
+    bottom: 0;
+  }
+
+  .xl\:inset-x-0 {
+    right: 0;
+    left: 0;
+  }
+
+  .xl\:inset-y-auto {
+    top: auto;
+    bottom: auto;
+  }
+
+  .xl\:inset-x-auto {
+    right: auto;
+    left: auto;
   }
 
   .xl\:inset-y-1\/2 {
@@ -38737,6 +39065,38 @@ h6 {
   .xl\:inset-x-1\/2 {
     right: 50%;
     left: 50%;
+  }
+
+  .xl\:top-0 {
+    top: 0;
+  }
+
+  .xl\:right-0 {
+    right: 0;
+  }
+
+  .xl\:bottom-0 {
+    bottom: 0;
+  }
+
+  .xl\:left-0 {
+    left: 0;
+  }
+
+  .xl\:top-auto {
+    top: auto;
+  }
+
+  .xl\:right-auto {
+    right: auto;
+  }
+
+  .xl\:bottom-auto {
+    bottom: auto;
+  }
+
+  .xl\:left-auto {
+    left: auto;
   }
 
   .xl\:top-1\/2 {
@@ -39508,6 +39868,10 @@ h6 {
 
   .xl\:w-screen {
     width: 100vw;
+  }
+
+  .xl\:w-1px {
+    width: 1px;
   }
 
   .xl\:w-35\/2 {

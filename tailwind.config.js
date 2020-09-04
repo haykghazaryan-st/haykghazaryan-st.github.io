@@ -38,14 +38,16 @@ module.exports = {
     container: {
       center: true,
     },
-    inset: {
-      "1/2": "50%",
-    },
+
     extend: {
+      inset: {
+        "1/2": "50%",
+      },
       zIndex: {
         2: 2,
       },
       width: {
+        "1px": "1px",
         "35/2": "17.5rem",
         "9/2": "4.5rem",
       },

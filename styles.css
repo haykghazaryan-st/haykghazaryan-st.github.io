@@ -65,16 +65,21 @@
 
 .checkmark-list {
   list-style-image: url("/assets/icons/checkmark.svg");
+  @apply pl-8;
   @apply capitalize;
 }
 
 .checkmark-list li {
-  margin-bottom: 16px;
+  @apply mb-4;
+  @apply pt-2;
 }
 
-.checkmark-list li span {
-  margin-left: 25px;
+.checkmark-list li p {
+  @apply ml-5;
   @apply align-text-bottom;
+  @apply inline-block;
+  @apply align-top;
+  @apply -mt-2;
 }
 
 .quote {

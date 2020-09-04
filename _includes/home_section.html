@@ -38,15 +38,8 @@
     {% endif %} {% if include.list.size > 0 %}
 
     <h2 class="capitalize mb-6">{{ include.list_title | newline_to_br }}</h2>
-    <ul class="list-inside checkmark-list">
-      {% for item in include.list %}
-      <li>
-        <span>{{ item }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-
-    {% endif %} {% include slider.html images=include.images %}
+    {% include list.html items=include.list %} {% endif %} {% include
+    slider.html images=include.images %}
 
     <p>{{ include.content | newline_to_br }}</p>
     {% if include.url %}

@@ -1,0 +1,9 @@
+{% if include.items.size > 0 %}
+<ul class="checkmark-list">
+  {% for item in include.items %}
+  <li>
+    <p>{{ item }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

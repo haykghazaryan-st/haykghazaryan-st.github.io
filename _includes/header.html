@@ -152,7 +152,7 @@
         {%- assign default_paths = site.pages | map: "path" -%} {%- assign
         page_paths = site.header_pages | default: default_paths -%} {%- if
         page_paths -%}
-        <ul class="flex items-center uppercase font-bold text-xs">
+        <ul class="flex items-center capitalize font-bold text-xs">
           {%- for path in site.data.navigation -%} {%- if path.title -%}
           <li>
             <a

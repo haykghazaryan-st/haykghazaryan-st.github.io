@@ -147,3 +147,9 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.highlight {
+  @apply bg-yellow;
+  @apply font-bold;
+  @apply inline-block;
+}

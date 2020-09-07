@@ -7,8 +7,8 @@ prev:
   name: Expand
   page: /expand
 next:
-  name: Media
-  page: /media
+  name: Blog
+  page: /blog
 container_class: container-small
 images:
   - /assets/photos/photo1.png

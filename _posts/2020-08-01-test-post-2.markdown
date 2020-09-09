@@ -3,7 +3,7 @@ layout: post
 title: "Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title Long Title"
 date: 2020-08-01 13:30:13 +0400
 categories: jekyll update
-excerpt: What text editor to use?
+excerpt: Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text Long Text
 img: https://cdn-images-1.medium.com/max/800/0*8X-LhY0W2PMgPzsj
 author: Mane Gevorgyan
 author_position: PR & Communications Manager at ServiceTitan

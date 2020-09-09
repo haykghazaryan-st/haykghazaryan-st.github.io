@@ -15,6 +15,7 @@ module.exports = {
       st: "#2d2e31",
       white: "#ffffff",
       gray: "#c4c4c4",
+      semiGray: "#F0F0F0",
       lightGray: "#dfe0e1",
       blue: "#0546d8",
       cadetblue: "#eaeff2",
@@ -58,6 +59,7 @@ module.exports = {
         30: "7.5rem",
         88: "22rem",
         "9/2": "4.5rem",
+        "84px": "84px",
       },
       spacing: {
         100: "25rem",

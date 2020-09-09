@@ -4,48 +4,45 @@ layout: page
 
 <div>
   {%- if site.posts.size > 0 -%}
-  <ul class="flex flex-wrap -ml-4 -mr-4">
+  <ul class="flex flex-wrap -ml-4 -mr-4 items-stretch">
     {%- for post in site.posts offset:1 -%}
-    <li class="pl-4 pr-4 w-1/3 mb-10">
-      <article class="border-b border-lightGray pb-5">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-        -%}
-        <span class="font-bold text-xxs">
-          {{ post.date | date: date_format }}
-        </span>
-        <div
-          class="mt-6 mb-5 bg-cover h-40"
-          style="background-image: url({{post.img}});"
-        >
-          &nbsp;
-        </div>
-        <div>
-          <h6 class="capitalize">
-            <a
-              class="hover:underline line-clamp h-30"
-              href="{{ post.url | relative_url }}"
-            >
+    <li class="w-1/3 mb-10">
+      <a class="block pl-4 pr-4 hover:bg-semiGray py-4 transition-colors duration-100"
+        href="{{ post.url | relative_url }} ">
+        <article class="border-b border-lightGray pb-5">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+          -%}
+          <span class="font-bold text-xxs">
+            {{ post.date | date: date_format }}
+          </span>
+          <div class="mt-6 mb-5 bg-cover h-40" style="background-image: url({{post.img}});">
+            &nbsp;
+          </div>
+          <div class="flex flex-col flex-grow">
+
+            <h6 class="capitalize line-clamp-2 h-20">
               {{ post.title | escape }}
-            </a>
-          </h6>
-          <div class="flex items-center mt-8">
-            <div
-              class="flex-shrink-0 bg-cover w-10 h-10 rounded-full mr-3"
-              style="background-image: url({{post.author_img}});"
-            >
-              &nbsp;
-            </div>
-            <div>
-              <h6 class="capitalize text-xs font-bold leading-4">
-                {{post.author}}
-              </h6>
-              {% if post.author_position %}
-              <p class="text-xxs">{{post.author_position}}</p>
-              {% endif %}
+            </h6>
+
+            <p class="text-xs h-84px line-clamp-3">{{ post.excerpt }}</p>
+
+            <div class="flex items-center mt-8">
+              <div class="flex-shrink-0 bg-cover w-10 h-10 rounded-full mr-3"
+                style="background-image: url({{post.author_img}});">
+                &nbsp;
+              </div>
+              <div>
+                <h6 class="capitalize text-xs font-bold leading-4">
+                  {{post.author}}
+                </h6>
+                {% if post.author_position %}
+                <p class="text-xxs">{{post.author_position}}</p>
+                {% endif %}
+              </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
+      </a>
     </li>
     {%- endfor -%}
   </ul>

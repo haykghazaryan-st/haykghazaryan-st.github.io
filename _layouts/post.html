@@ -4,31 +4,31 @@ layout: default
 
 <!-- Start main section -->
 <main aria-label="Content">
-  <div class="container">
+  <div class="container-small">
     <section class="mt-10 leading-loose">
-      
-      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <article class="post h-entry pb-10" itemscope itemtype="http://schema.org/BlogPosting">
 
         <div class="mt-10 heading page-heading">
           {%- if page.title -%}
           <h2 itemprop="name headline">{{ page.title | escape }}</h1>
-          {%- endif -%} {%- if page.subtitle -%}
-          {%- if page.author -%}
-              <h5 itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h5>
+            {%- endif -%} {%- if page.subtitle -%}
+            {%- if page.author -%}
+            <h5 itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h5>
             {%- endif -%}</p>
-          {%- endif -%}
-          <h5>
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              {{ page.date | date: date_format }}
-            </time>
-          </h5>
+            {%- endif -%}
+            <h5>
+              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+            </h5>
         </div>
-              
+
         <div itemprop="articleBody">
           {{ content }}
         </div>
-      
+
         <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </article>
 

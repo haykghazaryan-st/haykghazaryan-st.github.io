@@ -11,11 +11,13 @@ module.exports = {
   theme: {
     colors: {
       primary: "#000000",
+      black: "#444445",
       st: "#2d2e31",
       white: "#ffffff",
       gray: "#c4c4c4",
       lightGray: "#dfe0e1",
       blue: "#0546d8",
+      cadetblue: "#eaeff2",
       lightBlue: "#2270EE",
       yellow: "#FBF4A6",
     },

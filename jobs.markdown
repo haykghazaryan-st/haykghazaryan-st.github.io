@@ -9,5 +9,5 @@ prev:
 next:
   name: Home
   page: /
-container_class: container
+container_class: container-small
 ---

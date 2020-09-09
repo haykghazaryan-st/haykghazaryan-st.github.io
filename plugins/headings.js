@@ -35,10 +35,6 @@ exports.heading = function (config) {
         marginRight: config("theme.spacing.16"),
       },
 
-      h2: {
-        textTransform: "uppercase",
-      },
-
       h5: {
         textTransform: "capitalize",
       },

@@ -1,18 +1,31 @@
 title: RELOCATION
 subtitle: Comprehensive Assistance In The Relocation Process
 subheading: Welcome Tour To Yerevan
-list: 
-  - Relocation Air Tickets For The Employee And Family Members
-  - Belongings Shipment Coverage - Up To $5K
-  - Residence/Work Permit Paperwork Assistance
-  - Apartment Rent For The First 3 Months
-  - Utilities Coverage For The First 3 Months
-  - Assistance With Finding A Job For Spouses
-  - 50% Of Coverage For A Daycare And/Or School For The First 3 Months
-  - Round Trip Ticket Back To Home City For The Employee And Family Members Once A Year
-  - Mobile Line Provision
-  - Taxi Allowance
-  - Quarterly Family Retreat Package Within The Territory Armenia
-  - Armenian Language Classes
-  - English Language Classes
-  - Business Trips To The USA For Knowledge Transfer
+list:
+  - list:
+      - Relocation Air Tickets For The Employee And Family Members
+      - Belongings Shipment Coverage - Up To $5K
+      - Residence/Work Permit Paperwork Assistance
+    icon: plane.svg
+    icon_position: left
+
+  - list:
+      - Apartment Rent For The First 3 Months
+      - Utilities Coverage For The First 3 Months
+      - Assistance With Finding A Job For Spouses
+    icon: house.svg
+    icon_position: right
+
+  - list:
+      - 50% Of Coverage For A Daycare And/Or School For The First 3 Months
+      - Round Trip Ticket Back To Home City For The Employee And Family Members Once A Year
+      - Mobile Line Provision
+    icon: graduated.svg
+    icon_position: left
+
+  - list:
+      - Taxi Allowance
+      - Quarterly Family Retreat Package Within The Territory Armenia
+      - Armenian Language Classes
+      - English Language Classes
+      - Business Trips To The USA For Knowledge Transfer

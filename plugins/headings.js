@@ -30,7 +30,7 @@ exports.heading = function (config) {
       },
 
       "&.article-heading": {
-        width: "280px",
+        width: config("theme.width.75/4"),
         flexShrink: 0,
         marginRight: config("theme.spacing.16"),
       },

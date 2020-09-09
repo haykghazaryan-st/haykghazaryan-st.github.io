@@ -41,6 +41,12 @@ module.exports = {
     },
     container: {
       center: true,
+      screens: {
+        sm: "100%",
+        md: "100%",
+        lg: "1024px",
+        xl: "1200px",
+      },
     },
 
     extend: {
@@ -52,6 +58,7 @@ module.exports = {
       },
       width: {
         "1px": "1px",
+        "75/4": "18.75rem",
         "35/2": "17.5rem",
         "9/2": "4.5rem",
       },

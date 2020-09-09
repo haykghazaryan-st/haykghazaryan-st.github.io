@@ -70,7 +70,9 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    borderWidth: ["responsive", "last", "hover", "focus"],
+  },
   plugins: [
     plugin(function ({ addBase, addComponents, config }) {
       addBase(base(config));

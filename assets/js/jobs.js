@@ -7,7 +7,7 @@ function renderDepartments(departments) {
   departments = departments.filter((d) => d.jobs.length);
   departments.forEach((department) => {
     jobsObj[department.id] = department.jobs;
-    const li = $(`<li class="border-b">
+    const li = $(`<li class="border-b last:border-b-0">
         <a class="inline-block py-4 text-sm opacity-50 mr-2" href="#">${department.name}</a>
         <span class="inline-block rounded-full bg-cadetblue text-xxs px-2 text-black">${department.jobs.length}</span>
     </li>`);

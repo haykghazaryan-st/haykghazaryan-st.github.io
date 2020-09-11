@@ -3,8 +3,8 @@ layout: default
 ---
 
 <!-- Start main section -->
-<main aria-label="Content">
-  <div class="{{ page.container_class }}">
+<main aria-label="Content" class="flex flex-col flex-1">
+  <div class="{{ page.container_class }} flex-1">
     <div class="heading page-heading">
       {%- if page.title -%}
       <h2>{{ page.title }}</h2>
@@ -13,9 +13,12 @@ layout: default
       {%- endif -%}
     </div>
     <section class="leading-loose">{{ content }}</section>
-
-    {%- if page.prev or page.next -%} {%- include bottom_navigation.html
-    prev=page.prev next=page.next -%} {%- endif -%}
   </div>
+  <div class="{{ page.container_class }}">
+    {%- if page.prev or page.next -%}
+    {%- include bottom_navigation.html prev=page.prev next=page.next -%}
+    {%- endif -%}
+  </div>
+
 </main>
 <!-- End main section -->

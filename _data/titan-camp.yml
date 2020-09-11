@@ -1,0 +1,31 @@
+agenda:
+  - part_name: Part 1 - Trainings kick-off
+    chapters:
+      - Discuss project scope
+      - ASP.NET Core, Micro-services
+  - part_name: Part 2 - Project kick-off
+    chapters:
+      - Generics
+      - Collections
+
+agenda_pdf_link: /assets/photos/photo1.png
+
+instructors:
+  - name: Gor Rustamyan
+    position: Senior Software Engineer
+    img: /assets/photos/photo1.png
+    linkedin_url: asd
+  - name: Levon Hayrapetyan
+    position: Engineering Manager
+    img: /assets/photos/photo1.png
+    linkedin_url: asd
+
+mentors:
+  - name: Gor Rustamyan
+    position: Senior Software Engineer
+    img: /assets/photos/photo1.png
+    linkedin_url: asd
+  - name: Levon Hayrapetyan
+    position: Engineering Manager
+    img: /assets/photos/photo1.png
+    linkedin_url: asd

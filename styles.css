@@ -71,7 +71,7 @@
 
 .checkmark-list li {
   @apply mb-4;
-  @apply pt-2;
+  @apply pt-1;
 }
 
 .checkmark-list li p {
@@ -79,7 +79,7 @@
   @apply align-text-bottom;
   @apply inline-block;
   @apply align-top;
-  @apply -mt-2;
+  @apply -mt-1;
 }
 
 .quote {

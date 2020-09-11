@@ -9957,7 +9957,7 @@ h6 {
 
 .checkmark-list li {
   margin-bottom: 1rem;
-  padding-top: 0.5rem;
+  padding-top: 0.25rem;
 }
 
 .checkmark-list li p {
@@ -9965,7 +9965,7 @@ h6 {
   vertical-align: text-bottom;
   display: inline-block;
   vertical-align: top;
-  margin-top: -0.5rem;
+  margin-top: -0.25rem;
 }
 
 .quote {

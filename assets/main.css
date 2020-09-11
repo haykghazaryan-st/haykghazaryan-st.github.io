@@ -3293,8 +3293,16 @@ h6 {
   height: 3rem;
 }
 
+.h-15 {
+  height: 3.75rem;
+}
+
 .h-16 {
   height: 4rem;
+}
+
+.h-18 {
+  height: 4.5rem;
 }
 
 .h-20 {
@@ -3351,10 +3359,6 @@ h6 {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-9\/2 {
-  height: 4.5rem;
 }
 
 .h-84px {
@@ -7105,6 +7109,10 @@ h6 {
   width: 4rem;
 }
 
+.w-18 {
+  width: 4.5rem;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -7131,6 +7139,14 @@ h6 {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-70 {
+  width: 17.5rem;
+}
+
+.w-75 {
+  width: 18.75rem;
 }
 
 .w-100 {
@@ -7255,22 +7271,6 @@ h6 {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-1px {
-  width: 1px;
-}
-
-.w-75\/4 {
-  width: 18.75rem;
-}
-
-.w-35\/2 {
-  width: 17.5rem;
-}
-
-.w-9\/2 {
-  width: 4.5rem;
 }
 
 .z-0 {
@@ -12529,8 +12529,16 @@ h6 {
     height: 3rem;
   }
 
+  .sm\:h-15 {
+    height: 3.75rem;
+  }
+
   .sm\:h-16 {
     height: 4rem;
+  }
+
+  .sm\:h-18 {
+    height: 4.5rem;
   }
 
   .sm\:h-20 {
@@ -12587,10 +12595,6 @@ h6 {
 
   .sm\:h-screen {
     height: 100vh;
-  }
-
-  .sm\:h-9\/2 {
-    height: 4.5rem;
   }
 
   .sm\:h-84px {
@@ -16341,6 +16345,10 @@ h6 {
     width: 4rem;
   }
 
+  .sm\:w-18 {
+    width: 4.5rem;
+  }
+
   .sm\:w-20 {
     width: 5rem;
   }
@@ -16367,6 +16375,14 @@ h6 {
 
   .sm\:w-64 {
     width: 16rem;
+  }
+
+  .sm\:w-70 {
+    width: 17.5rem;
+  }
+
+  .sm\:w-75 {
+    width: 18.75rem;
   }
 
   .sm\:w-100 {
@@ -16491,22 +16507,6 @@ h6 {
 
   .sm\:w-screen {
     width: 100vw;
-  }
-
-  .sm\:w-1px {
-    width: 1px;
-  }
-
-  .sm\:w-75\/4 {
-    width: 18.75rem;
-  }
-
-  .sm\:w-35\/2 {
-    width: 17.5rem;
-  }
-
-  .sm\:w-9\/2 {
-    width: 4.5rem;
   }
 
   .sm\:z-0 {
@@ -21549,8 +21549,16 @@ h6 {
     height: 3rem;
   }
 
+  .md\:h-15 {
+    height: 3.75rem;
+  }
+
   .md\:h-16 {
     height: 4rem;
+  }
+
+  .md\:h-18 {
+    height: 4.5rem;
   }
 
   .md\:h-20 {
@@ -21607,10 +21615,6 @@ h6 {
 
   .md\:h-screen {
     height: 100vh;
-  }
-
-  .md\:h-9\/2 {
-    height: 4.5rem;
   }
 
   .md\:h-84px {
@@ -25361,6 +25365,10 @@ h6 {
     width: 4rem;
   }
 
+  .md\:w-18 {
+    width: 4.5rem;
+  }
+
   .md\:w-20 {
     width: 5rem;
   }
@@ -25387,6 +25395,14 @@ h6 {
 
   .md\:w-64 {
     width: 16rem;
+  }
+
+  .md\:w-70 {
+    width: 17.5rem;
+  }
+
+  .md\:w-75 {
+    width: 18.75rem;
   }
 
   .md\:w-100 {
@@ -25511,22 +25527,6 @@ h6 {
 
   .md\:w-screen {
     width: 100vw;
-  }
-
-  .md\:w-1px {
-    width: 1px;
-  }
-
-  .md\:w-75\/4 {
-    width: 18.75rem;
-  }
-
-  .md\:w-35\/2 {
-    width: 17.5rem;
-  }
-
-  .md\:w-9\/2 {
-    width: 4.5rem;
   }
 
   .md\:z-0 {
@@ -30569,8 +30569,16 @@ h6 {
     height: 3rem;
   }
 
+  .lg\:h-15 {
+    height: 3.75rem;
+  }
+
   .lg\:h-16 {
     height: 4rem;
+  }
+
+  .lg\:h-18 {
+    height: 4.5rem;
   }
 
   .lg\:h-20 {
@@ -30627,10 +30635,6 @@ h6 {
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-9\/2 {
-    height: 4.5rem;
   }
 
   .lg\:h-84px {
@@ -34381,6 +34385,10 @@ h6 {
     width: 4rem;
   }
 
+  .lg\:w-18 {
+    width: 4.5rem;
+  }
+
   .lg\:w-20 {
     width: 5rem;
   }
@@ -34407,6 +34415,14 @@ h6 {
 
   .lg\:w-64 {
     width: 16rem;
+  }
+
+  .lg\:w-70 {
+    width: 17.5rem;
+  }
+
+  .lg\:w-75 {
+    width: 18.75rem;
   }
 
   .lg\:w-100 {
@@ -34531,22 +34547,6 @@ h6 {
 
   .lg\:w-screen {
     width: 100vw;
-  }
-
-  .lg\:w-1px {
-    width: 1px;
-  }
-
-  .lg\:w-75\/4 {
-    width: 18.75rem;
-  }
-
-  .lg\:w-35\/2 {
-    width: 17.5rem;
-  }
-
-  .lg\:w-9\/2 {
-    width: 4.5rem;
   }
 
   .lg\:z-0 {
@@ -39589,8 +39589,16 @@ h6 {
     height: 3rem;
   }
 
+  .xl\:h-15 {
+    height: 3.75rem;
+  }
+
   .xl\:h-16 {
     height: 4rem;
+  }
+
+  .xl\:h-18 {
+    height: 4.5rem;
   }
 
   .xl\:h-20 {
@@ -39647,10 +39655,6 @@ h6 {
 
   .xl\:h-screen {
     height: 100vh;
-  }
-
-  .xl\:h-9\/2 {
-    height: 4.5rem;
   }
 
   .xl\:h-84px {
@@ -43401,6 +43405,10 @@ h6 {
     width: 4rem;
   }
 
+  .xl\:w-18 {
+    width: 4.5rem;
+  }
+
   .xl\:w-20 {
     width: 5rem;
   }
@@ -43427,6 +43435,14 @@ h6 {
 
   .xl\:w-64 {
     width: 16rem;
+  }
+
+  .xl\:w-70 {
+    width: 17.5rem;
+  }
+
+  .xl\:w-75 {
+    width: 18.75rem;
   }
 
   .xl\:w-100 {
@@ -43551,22 +43567,6 @@ h6 {
 
   .xl\:w-screen {
     width: 100vw;
-  }
-
-  .xl\:w-1px {
-    width: 1px;
-  }
-
-  .xl\:w-75\/4 {
-    width: 18.75rem;
-  }
-
-  .xl\:w-35\/2 {
-    width: 17.5rem;
-  }
-
-  .xl\:w-9\/2 {
-    width: 4.5rem;
   }
 
   .xl\:z-0 {

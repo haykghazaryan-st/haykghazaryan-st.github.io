@@ -12,14 +12,14 @@ layout: page
 
     {% if agenda.size > 0 %}
     <div class="legend">
-      <h6>Agenda</h6>
+      <h6>Course content</h6>
     </div>
 
     {% for part in agenda %}
-    <h6 class="capitalize text-sm font-bold mt-6 mb-4">
+    <!-- <h6 class="capitalize text-sm font-bold mt-6 mb-4">
       <img class="inline-block mr-4" src="/assets/icons/clock.svg" alt="Time">
       {{part.part_name}}
-    </h6>
+    </h6> -->
     {% if part.chapters.size > 0 %}
     <ul class="checkmark-list">
       {% for chapter in part.chapters %}
@@ -34,13 +34,62 @@ layout: page
     {% endif %}
 
     <div class="border-t mt-8 pt-4">
-      <a href="{{site.data.titan-camp.agenda_pdf_link}}" download="agenda">
+      <a href="{{site.data.titan-camp.agenda_pdf_link}}" download="agenda" class="flex">
         <img src="/assets/icons/file.svg" alt="file">
+        Full agenda
       </a>
     </div>
 
   </div>
   <div class="w-1/2 pl-6">
+
+    <div class="legend mb-6">
+      <h6>Project lead</h6>
+    </div>
+
+    <ul>
+      <li class="flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+          style="background-image: url('/assets/photos/titan-camp/people/gev.jpg');">
+          &nbsp;
+        </div>
+        <div>
+          <h6 class="capitalize text-sm font-bold">Gevorg Martirosyan</h6>
+          <p class="capitalize text-xs mb-1">Engineering Manager</p>
+          <a href="https://www.linkedin.com/in/gevorg-martirosyan-ph-d-m-b-a-a6674038/" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="legend mb-6">
+      <h6>Product</h6>
+    </div>
+
+    <ul>
+      <li class="flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+          style="background-image: url('/assets/photos/titan-camp/people/ashot.jpg');">
+          &nbsp;
+        </div>
+        <div>
+          <h6 class="capitalize text-sm font-bold">Ashot Tonoyan</h6>
+          <p class="capitalize text-xs mb-1">Managing director</p>
+          <a href="https://www.linkedin.com/in/ashottonoyan/" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+        </div>
+      </li>
+      <li class="flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+          style="background-image: url('/assets/photos/titan-camp/people/stepan.jpg');">
+          &nbsp;
+        </div>
+        <div>
+          <h6 class="capitalize text-sm font-bold">Stepan Smbatyan</h6>
+          <p class="capitalize text-xs mb-1">Product manager</p>
+          <a href="https://www.linkedin.com/in/smbatyan/" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+        </div>
+      </li>
+    </ul>
+    
     {%- assign instructors = site.data.titan-camp.instructors -%}
     {% if instructors.size > 0 %}
     <div class="legend mb-6">
@@ -57,7 +106,7 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">{{instructor.name}}</h6>
           <p class="capitalize text-xs mb-1">{{instructor.position}}</p>
-          <a href="{{instructor.linkedin_url}}"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="{{instructor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
       {% endfor %}
@@ -80,7 +129,7 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">{{mentor.name}}</h6>
           <p class="capitalize text-xs mb-1">{{mentor.position}}</p>
-          <a href="{{mentor.linkedin_url}}"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="{{mentor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
       {% endfor %}
@@ -90,6 +139,9 @@ layout: page
   </div>
 </div>
 
+<div class="legend legend-center mt-12">
+  <h6>Join us</h6>
+</div>
 
 <div class="flex justify-between items-stretch mt-20">
   <div class="flex flex-col justify-between w-1/3 relative">

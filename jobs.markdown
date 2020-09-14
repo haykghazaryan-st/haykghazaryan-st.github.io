@@ -4,8 +4,8 @@ title: Job Openings
 permalink: job-openings
 js: jobs
 prev:
-  name: Blog
-  page: /blog
+  name: Media
+  page: /media
 next:
   name: Home
   page: /

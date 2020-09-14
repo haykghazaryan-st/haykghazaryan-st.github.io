@@ -1,31 +1,70 @@
 agenda:
-  - part_name: Part 1 - Trainings kick-off
+  - part_name: 
     chapters:
-      - Discuss project scope
-      - ASP.NET Core, Micro-services
-  - part_name: Part 2 - Project kick-off
-    chapters:
+      - Advanced ASP.NET Core and Microservices
+      - Architecture Patterns
+      - JS and React.js Fundamentals for Backend Developers
       - Generics
       - Collections
+      - LINQ
+      - Expressions
+      - Sync/Async Programming
+      - Data Structures (Under the hood)
+      - Infrastructure, Cloud, Deployment and Build Tools
+      - Software Development Lifecycle and Best Practices at a Billion Dollar Product Company
+  - part_name: Part 2 - Project kick-off
+    chapters:
 
-agenda_pdf_link: /assets/photos/photo1.png
+agenda_pdf_link: /assets/titan-camp.pdf
 
 instructors:
   - name: Gor Rustamyan
     position: Senior Software Engineer
-    img: /assets/photos/photo1.png
-    linkedin_url: asd
+    img: /assets/photos/titan-camp/people/gor.png
+    linkedin_url: https://www.linkedin.com/in/gor-rustamyan-90982a12/
   - name: Levon Hayrapetyan
     position: Engineering Manager
-    img: /assets/photos/photo1.png
-    linkedin_url: asd
+    img: /assets/photos/titan-camp/people/levon.jpg
+    linkedin_url: https://www.linkedin.com/in/levonhayrapetyan/
+  - name: Artyom Tonoyan
+    position: Lead Software Engineer
+    img: /assets/photos/titan-camp/people/artyom.jpg
+    linkedin_url: https://www.linkedin.com/in/arttonoyan/
+  - name: Levon Alikhanov
+    position: Engineering Manager
+    img: /assets/photos/titan-camp/people/alikhanov.jpg
+    linkedin_url: https://www.linkedin.com/in/alikhanovlevon/
+  - name: Hayk Ghazaryan
+    position: Senior Software Engineer 
+    img: /assets/photos/titan-camp/people/hayk.jpg
+    linkedin_url: https://www.linkedin.com/in/ghazaryanhayk/
+  - name: Karen Harutyunyan
+    position: Senior Software Engineer
+    img: /assets/photos/titan-camp/people/karen.jpg
+    linkedin_url: https://www.linkedin.com/in/kharutyunyan/
 
 mentors:
-  - name: Gor Rustamyan
+  - name: Artur Margaryan
     position: Senior Software Engineer
-    img: /assets/photos/photo1.png
-    linkedin_url: asd
-  - name: Levon Hayrapetyan
-    position: Engineering Manager
-    img: /assets/photos/photo1.png
-    linkedin_url: asd
+    img: /assets/photos/titan-camp/people/margaryan.jpg
+    linkedin_url: https://www.linkedin.com/in/arturmargaryan/
+  - name: Sasun Stepanyan
+    position: Senior Software Engineer
+    img: /assets/photos/titan-camp/people/sasun.jpg
+    linkedin_url: https://www.linkedin.com/in/sasun-stepanyan-900673181/
+  - name: Arthur Tadevosyan
+    position: Software Engineer
+    img: /assets/photos/titan-camp/people/tadevosyan.jpg
+    linkedin_url: https://www.linkedin.com/in/arthurtadevosyan/
+  - name: Hovik Aghajanyan
+    position: Senior Software Engineer
+    img: /assets/photos/titan-camp/people/hovik.jpg
+    linkedin_url: https://www.linkedin.com/in/hovikaghajanyan/
+  - name: Tigran Davtyan
+    position: Senior Software Engineer
+    img: /assets/photos/titan-camp/people/tigran.jpg
+    linkedin_url: https://www.linkedin.com/in/tigran-davtyan/
+  - name: Edit Mkoyan
+    position: Lead Systems Engineer
+    img: /assets/photos/titan-camp/people/edik.jpg
+    linkedin_url: https://www.linkedin.com/in/edik-mkoyan-8155aa9/

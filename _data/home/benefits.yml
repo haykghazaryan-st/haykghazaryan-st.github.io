@@ -6,7 +6,7 @@ icon_items:
   - image: assets/icons/time.svg
     caption: Flexible Work Schedules And Vacation Time
   - image: assets/icons/insurance.svg
-    caption: Comprehensive Health Insurance
+    caption: Health and Life Insurance
   - image: assets/icons/parental.svg
     caption: Special Parental Leave Program
   - image: assets/icons/stock.svg
@@ -15,3 +15,9 @@ icon_items:
     caption: Business Trips To The USA For Knowledge Transfer
   - image: assets/icons/training.svg
     caption: Training Allowance
+  - image: assets/icons/mobile.svg
+    caption: Fitness And Mobile Allowance
+  - image: assets/icons/lunch.svg
+    caption: Daily lunch and a fully stocked kitchen 
+  - image: assets/icons/referral.svg
+    caption: Referral Bonus

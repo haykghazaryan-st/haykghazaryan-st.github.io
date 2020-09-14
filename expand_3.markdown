@@ -4,7 +4,7 @@
 
 Our most recent event was a virtual one, allowing for participants from around the globe.
 
-{% include youtubePlayer.html id="wWi4dCeypng" start="1106" %}
+{% include youtubePlayer.html id="wWi4dCeypng" %}
 
 We receive questions frequently from prospective talent regarding our team structure and the benefits of working at ServiceTitan, so we decided to offer answers to these questions and go into detail about what life is like at ServiceTitan.
 

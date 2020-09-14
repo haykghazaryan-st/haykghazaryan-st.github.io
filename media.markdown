@@ -3,10 +3,10 @@ layout: media
 title: Media
 permalink: media
 prev:
-  name: Blog
-  page: /blog
+  name: Titan Camp
+  page: /titan-camp
 next:
-  name: Home
-  page: /
+  name: Job openings
+  page: /job-openings
 container_class: container
 ---

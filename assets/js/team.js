@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 
   $(window).scroll(function () {
-    const fromTop = $(this).scrollTop();
+    const fromTop = $(this).scrollTop() + 50;
 
     let cur = scrollItems.map(function () {
       if ($(this).offset().top < fromTop) return this;

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Company
-subtitle: First Armenian-founded<br />tech unicorn
+subtitle: The first Armenian-founded tech unicorn
 permalink: company
 prev:
   name: Home
@@ -12,26 +12,13 @@ next:
 container_class: container-small
 ---
 
-ServiceTitan's end-to-end solution includes CRM, intelligent dispatch, custom reporting,
-marketing automation, a mobile solution for field techs, and accounting integrations with Sage
-Intacct and QuickBooks. ServiceTitan is the preferred software for the world's most successful
-plumbing, HVAC, and electrical companies.
+ServiceTitan is the first Armenian-founded tech unicorn. CEO Ara Mahdessian and President Vahe Kuzoyan, both of Armenian descent, joined forces after college and founded ServiceTitan with a simple but challenging goal: to streamline their fathers’ home service businesses. Now, their company is responsible for transforming the entire home services industry.
 
-{% include youtubePlayer.html id="1ugivNRYfjc" %}
+ServiceTitan is the world’s leading and fastest-growing software technology platform for the trades, a trillion-dollar global industry. We help small business entrepreneurs run and grow their businesses, streamline operations, improve customer service, and increase sales. We currently have more than 4,700 customers and more than 1000 employees across Glendale, Atlanta, and Yerevan.  
 
-Sometimes ServiceTitan itself is mistaken for a home services company. Still, in
-reality, we provide a cutting edge software platform using the latest and greatest technologies for
-thousands of the world's most successful companies in the trades.
+ServiceTitan powers the businesses of more than 100K tradespeople, is backed by the world’s leading venture capitalists (Index Ventures, Battery Ventures, ICONIQ Capital, Bessemer Venture Partner), and continues to meet targeted triple-digit growth annually. 
 
-Now ServiceTitan is the world’s leading and fastest-growing software technology platform
-for the trades, a trillion-dollar global industry. We help small business entrepreneurs run and grow
-their businesses streamline operations, improve customer service, and increase sales. It currently
-has more than 4,000 customers and more than 1000 employees across Glendale, Atlanta, and Yerevan.
+Headquartered in Glendale, California, ServiceTitan has a growing presence in Armenia. Our team of 90+ people in Yerevan that not only improves existing software products, but also builds brand-new ones from scratch. 
 
-Today ServiceTitan powers the businesses of more than 100K tradespeople, is backed by
-the world’s leading venture capitalists (5 funding rounds raising a total of 326 million USD), is
-valued at 1.6B+ and continues to target triple-digit growth annually.
 
-Headquartered in Glendale, California, ServiceTitan has a growing presence in Armenia.
-It has a team of 60+ people in Yerevan that not only improves existing products, but also builds
-brand-new ones from scratch.
+{% include youtubePlayer.html id="pvEFhr3v74o" %}

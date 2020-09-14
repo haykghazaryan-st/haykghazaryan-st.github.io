@@ -11,18 +11,18 @@ next:
   page: /titan-camp
 container_class: container
 list_items:
-  - The talent pool in Armenia
-  - career opportunities within ServiceTitan
-  - learning and development opportunities within the Armenian tech community
+  - to expand the talent pool in Armenia
+  - to expand career opportunities within ServiceTitan
+  - to expand learning and development opportunities within the Armenian tech community
 ---
 
 Achieve the Extraordinary is one of ServiceTitan’s core values - so, what do we mean when we say we want to expand it? Our Expand the Extraordinary campaign has three goals:
 
-<strong>To Expand</strong>
+<strong>Campaign Goals</strong>
 
 {% include list.html items=page.list_items %}
 
-As a part of this campaign, we host events (live and virtual) that serve this goal, sometimes even requiring us to head to Europe, as we did back in March.
+As a part of this campaign, we host events (live and virtual) that serve this goal, sometimes even requiring us to head to Europe. 
 
 {% include_relative expand_1.markdown %}
 

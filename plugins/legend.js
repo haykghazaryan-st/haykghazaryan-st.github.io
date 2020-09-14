@@ -3,6 +3,7 @@ module.exports = function (config) {
     ".legend": {
       display: "flex",
       alignItems: "center",
+      margin: `${config("theme.spacing.6")} 0`,
 
       h6: {
         textTransform: "capitalize",

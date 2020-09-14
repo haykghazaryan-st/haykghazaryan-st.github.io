@@ -4,12 +4,14 @@ $(document).ready(function () {
   menuItems.click(function (e) {
     const href = $(this).attr("href");
     const offsetTop = href === "#" ? 0 : $(href).offset().top + 1;
-    $("html, body").stop().animate(
-      {
-        scrollTop: offsetTop,
-      },
-      300
-    );
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: offsetTop - 50,
+        },
+        300
+      );
     e.preventDefault();
   });
 
@@ -21,7 +23,7 @@ $(document).ready(function () {
   });
 
   $(window).scroll(function () {
-    const fromTop = $(this).scrollTop();
+    const fromTop = $(this).scrollTop() + 50;
     let cur = scrollItems.map(function () {
       if ($(this).offset().top < fromTop) return this;
     });

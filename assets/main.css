@@ -9953,7 +9953,6 @@ h6 {
 .checkmark-list {
   list-style-image: url("/assets/icons/checkmark.svg");
   padding-left: 2rem;
-  text-transform: capitalize;
 }
 
 .checkmark-list li {

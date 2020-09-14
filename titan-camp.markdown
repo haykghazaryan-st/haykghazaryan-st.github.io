@@ -34,11 +34,11 @@ timeline_list:
   - "Application close date: October 2nd"
   - "Titan Camp kick-off: October 7th"
   - "Duration: 3 months"
-  - "Cadence: 3 times per week after work hours to accommodate people with full time jobs. "
+  - "Cadence: 3 times per week after work hours to accommodate people with full time jobs"
   - "Lesson duration: 2 hours"
 location_list: 
-  - In office. ServiceTitan Armenia office premises (address)
-  - Online/remote. Online streaming will also be available to accommodate participants that prefer it.
+  - In office. ServiceTitan Armenia office premises
+  - Online/remote. Online streaming will also be available to accommodate participants that prefer it
 team_list: 
   - Build with and learn from ServiceTitan’s top senior engineers   
   - Sessions will be lead by four instructors, with additional help from ten mentors who will be available to answer questions and provide support throughout the program

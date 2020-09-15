@@ -18,8 +18,8 @@ images:
   - /assets/photos/titan-camp/5.jpg
 list_items:
   - Build a community of senior-level engineers to share best practices, deepen their knowledge in the latest new technologies
-  - Develop a new open-source software project designed to support the travel industry while they are currently going through probably the most challenging time in their history.
-  - Create a platform for senior software engineers to understand how big companies, like ServiceTitan, manage SDLC (software development life cycle), what challenges they have, how they address them, and what tools they use to achieve utmost scalability and productivity.
+  - Develop a new open-source software project designed to support the travel industry while they are currently going through probably the most challenging time in their history
+  - Create a platform for senior software engineers to understand how big companies, like ServiceTitan, manage SDLC (software development life cycle), what challenges they have, how they address them, and what tools they use to achieve utmost scalability and productivity
 list_items_1: 
   - Experienced .NET Developers (3+ years) who are constantly looking to level up their game
   - Senior engineers who are looking for a fast-tracked switch to .NET
@@ -33,9 +33,9 @@ timeline_list:
   - "Application open date: September 15th"
   - "Application close date: October 2nd"
   - "Titan Camp kick-off: October 7th"
-  - "Duration: 3 months"
-  - "Cadence: 3 times per week after work hours to accommodate people with full time jobs"
-  - "Lesson duration: 2 hours"
+  - "Duration: <strong>3 months</strong>"
+  - "Cadence: <strong>3 times per week</strong> after work hours to accommodate people with full time jobs"
+  - "Lesson duration: <strong>2 hours</strong>"
 location_list: 
   - In office. ServiceTitan Armenia office premises
   - Online/remote. Online streaming will also be available to accommodate participants that prefer it
@@ -51,7 +51,7 @@ Tech in Armenia is a hyper-growth industry with a massive shift from outsourcing
 
 The role of senior engineers in this ecosystem is crucial for cultivating new talent. Mentoring junior and mid-level engineers to advance their careers in software engineering is the only way to fill the talent gap in Armenia. 
 
-To further invest in building Armenian tech talent, <strong>ServcieTitan is kicking off a new 3-month Titan Camp program with the following objectives:</strong>
+To further invest in building Armenian tech talent, <strong>ServiceTitan is kicking off a new 3-month Titan Camp program with the following objectives:</strong>
 
 {% include list.html items=page.list_items %}
 

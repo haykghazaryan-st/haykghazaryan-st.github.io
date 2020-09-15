@@ -3,12 +3,19 @@ layout: page
 title: Company
 subtitle: The first Armenian-founded tech unicorn
 permalink: company
+js: company
 prev:
   name: Home
   page: /
 next:
   name: Product
   page: /product
+images: 
+  - assets/photos/company/1.jpg
+  - assets/photos/company/2.jpg
+  - assets/photos/company/3.jpg
+  - assets/photos/company/4.jpg
+  - assets/photos/company/5.png
 container_class: container-small
 ---
 
@@ -26,3 +33,5 @@ ServiceTitan powers the businesses of more than 100K tradespeople, is backed by 
 <p class="mb-6">
 Headquartered in Glendale, California, ServiceTitan has a growing presence in Armenia. Our team of 90+ people in Yerevan that not only improves existing software products, but also builds brand-new ones from scratch. 
 </p>
+
+{% include slider.html images=page.images %}

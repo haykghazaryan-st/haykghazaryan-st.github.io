@@ -34,7 +34,7 @@ layout: page
     {% endif %}
 
     <div class="border-t mt-8 pt-4">
-      <a href="{{site.data.titan-camp.agenda_pdf_link}}" download="agenda" class="flex">
+      <a href="{{site.data.titan-camp.agenda_pdf_link}}" target="_blank" class="flex">
         <img src="/assets/icons/file.svg" alt="file">
         Full agenda
       </a>
@@ -56,7 +56,8 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">Gevorg Martirosyan</h6>
           <p class="capitalize text-xs mb-1">Engineering Manager</p>
-          <a href="https://www.linkedin.com/in/gevorg-martirosyan-ph-d-m-b-a-a6674038/" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="https://www.linkedin.com/in/gevorg-martirosyan-ph-d-m-b-a-a6674038/" target="_blank"><img
+              src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
     </ul>
@@ -74,7 +75,8 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">Ashot Tonoyan</h6>
           <p class="capitalize text-xs mb-1">Managing director</p>
-          <a href="https://www.linkedin.com/in/ashottonoyan/" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="https://www.linkedin.com/in/ashottonoyan/" target="_blank"><img
+              src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
       <li class="flex mb-4">
@@ -85,11 +87,12 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">Stepan Smbatyan</h6>
           <p class="capitalize text-xs mb-1">Product manager</p>
-          <a href="https://www.linkedin.com/in/smbatyan/" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="https://www.linkedin.com/in/smbatyan/" target="_blank"><img src="/assets/icons/linkedin-small.svg"
+              alt="LinkedIn"></a>
         </div>
       </li>
     </ul>
-    
+
     {%- assign instructors = site.data.titan-camp.instructors -%}
     {% if instructors.size > 0 %}
     <div class="legend">
@@ -106,7 +109,8 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">{{instructor.name}}</h6>
           <p class="capitalize text-xs mb-1">{{instructor.position}}</p>
-          <a href="{{instructor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="{{instructor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg"
+              alt="LinkedIn"></a>
         </div>
       </li>
       {% endfor %}
@@ -129,7 +133,8 @@ layout: page
         <div>
           <h6 class="capitalize text-sm font-bold">{{mentor.name}}</h6>
           <p class="capitalize text-xs mb-1">{{mentor.position}}</p>
-          <a href="{{mentor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a href="{{mentor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg"
+              alt="LinkedIn"></a>
         </div>
       </li>
       {% endfor %}

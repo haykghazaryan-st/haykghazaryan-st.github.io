@@ -44,12 +44,16 @@ module.exports = {
       screens: {
         sm: "100%",
         md: "100%",
-        lg: "1024px",
-        xl: "1200px",
+        lg: "1056px",
+        xl: "1232px",
       },
+      padding: "1rem",
     },
 
     extend: {
+      screens: {
+        xs: "320px",
+      },
       inset: {
         "1/2": "50%",
       },

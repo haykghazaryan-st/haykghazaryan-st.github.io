@@ -23,13 +23,13 @@ list_items:
 list_items_1: 
   - Experienced .NET Developers (3+ years) who are constantly looking to level up their game
   - Senior engineers who are looking for a fast-tracked switch to .NET
-content_list: 
+content_list:
   - Advanced ASP.NET Core and Microservices
   - Architecture Patterns
   - JS and React.js Fundamentals for Backend Developers
   - Infrastructure, Cloud, Deployment and Build Tools
   - Software Development Lifecycle and Best Practices at a Billion Dollar Product Company
-timeline_list: 
+timeline_list:
   - "Application open date: September 15th"
   - "Application close date: October 2nd"
   - "Titan Camp kick-off: October 7th"
@@ -39,17 +39,17 @@ timeline_list:
 location_list: 
   - In office. ServiceTitan Armenia office premises
   - Online/remote. Online streaming will also be available to accommodate participants that prefer it
-team_list: 
-  - Build with and learn from ServiceTitan’s top senior engineers   
+team_list:
+  - Build with and learn from ServiceTitan’s top senior engineers
   - Sessions will be lead by four instructors, with additional help from ten mentors who will be available to answer questions and provide support throughout the program
-pricing_list: 
+pricing_list:
   - 100% free of charge
   - No strings attached
 ---
 
-Tech in Armenia is a hyper-growth industry with a massive shift from outsourcing to product creation, leading to a rapidly growing demand for senior talent in engineering. 
+Tech in Armenia is a hyper-growth industry with a massive shift from outsourcing to product creation, leading to a rapidly growing demand for senior talent in engineering.
 
-The role of senior engineers in this ecosystem is crucial for cultivating new talent. Mentoring junior and mid-level engineers to advance their careers in software engineering is the only way to fill the talent gap in Armenia. 
+The role of senior engineers in this ecosystem is crucial for cultivating new talent. Mentoring junior and mid-level engineers to advance their careers in software engineering is the only way to fill the talent gap in Armenia.
 
 To further invest in building Armenian tech talent, <strong>ServiceTitan is kicking off a new 3-month Titan Camp program with the following objectives:</strong>
 
@@ -67,10 +67,10 @@ This program is not only meant for those who want to join ServiceTitan Armenia b
 
 <strong>Timeline</strong>
 {% include list.html items=page.timeline_list %}
-  
+
 <strong>Location</strong>
 {% include list.html items=page.location_list %}
-  
+
 <strong>Team</strong>
 {% include list.html items=page.team_list %}
 

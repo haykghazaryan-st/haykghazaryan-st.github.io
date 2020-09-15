@@ -42,18 +42,23 @@ module.exports = {
     container: {
       center: true,
       screens: {
-        sm: "100%",
-        md: "100%",
-        lg: "1056px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
         xl: "1232px",
       },
       padding: "1rem",
     },
 
+    screens: {
+      xs: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+    },
+
     extend: {
-      screens: {
-        xs: "320px",
-      },
       inset: {
         "1/2": "50%",
       },

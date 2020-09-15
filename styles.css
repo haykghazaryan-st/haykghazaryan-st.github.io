@@ -42,7 +42,8 @@
 @tailwind utilities;
 
 .container-small {
-  max-width: 1024px;
+  max-width: 1040px;
+  @apply px-4;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -158,4 +159,14 @@
   @apply bg-yellow;
   @apply font-bold;
   @apply inline-block;
+}
+
+@responsive {
+  .columns-2 {
+    columns: 2;
+  }
+
+  .columns-1 {
+    columns: 1;
+  }
 }

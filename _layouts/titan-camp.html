@@ -4,9 +4,9 @@ layout: page
 
 <div>{{ content }}</div>
 
-<div class="flex mt-10 leading-normal">
+<div class="flex flex-wrap md:flex-no-wrap mt-10 leading-normal">
 
-  <div class="w-1/2 pr-6">
+  <div class="w-full md:w-1/2 pr-0 md:pr-6">
 
     {%- assign agenda = site.data.titan-camp.agenda -%}
 
@@ -41,23 +41,23 @@ layout: page
     </div>
 
   </div>
-  <div class="w-1/2 pl-6">
+  <div class="w-full md:w-1/2 md:mt-0 mt-8 md:pl-6 pl-0">
 
     <div class="legend mb-6">
       <h6>Project lead</h6>
     </div>
 
     <ul>
-      <li class="flex mb-4">
-        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+      <li class="sm:flex xs:block flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mb-3 md:mb-0 xs:mx-auto sm:mr-3 mr-3 sm:ml-0 ml-0"
           style="background-image: url('/assets/photos/titan-camp/people/gev.jpg');">
           &nbsp;
         </div>
-        <div>
+        <div class="xs:text-center sm:text-left text-left">
           <h6 class="capitalize text-sm font-bold">Gevorg Martirosyan</h6>
           <p class="capitalize text-xs mb-1">Engineering Manager</p>
-          <a href="https://www.linkedin.com/in/gevorg-martirosyan-ph-d-m-b-a-a6674038/" target="_blank"><img
-              src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
+          <a class="inline-block" href="https://www.linkedin.com/in/gevorg-martirosyan-ph-d-m-b-a-a6674038/"
+            target="_blank"><img src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
     </ul>
@@ -66,29 +66,29 @@ layout: page
       <h6>Product</h6>
     </div>
 
-    <ul>
-      <li class="flex mb-4">
-        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+    <ul class="xs:columns-2 md:columns-1">
+      <li class="sm:flex xs:block flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mb-3 md:mb-0 xs:mx-auto sm:mr-3 mr-3 sm:ml-0 ml-0"
           style="background-image: url('/assets/photos/titan-camp/people/ashot.jpg');">
           &nbsp;
         </div>
-        <div>
+        <div class="xs:text-center sm:text-left text-left">
           <h6 class="capitalize text-sm font-bold">Ashot Tonoyan</h6>
           <p class="capitalize text-xs mb-1">Managing director</p>
-          <a href="https://www.linkedin.com/in/ashottonoyan/" target="_blank"><img
+          <a class="inline-block" href="https://www.linkedin.com/in/ashottonoyan/" target="_blank"><img
               src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
-      <li class="flex mb-4">
-        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+      <li class="sm:flex xs:block flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mb-3 md:mb-0 xs:mx-auto sm:mr-3 mr-3 sm:ml-0 ml-0"
           style="background-image: url('/assets/photos/titan-camp/people/stepan.jpg');">
           &nbsp;
         </div>
-        <div>
+        <div class="xs:text-center sm:text-left text-left">
           <h6 class="capitalize text-sm font-bold">Stepan Smbatyan</h6>
           <p class="capitalize text-xs mb-1">Product manager</p>
-          <a href="https://www.linkedin.com/in/smbatyan/" target="_blank"><img src="/assets/icons/linkedin-small.svg"
-              alt="LinkedIn"></a>
+          <a class="inline-block" href="https://www.linkedin.com/in/smbatyan/" target="_blank"><img
+              src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
     </ul>
@@ -99,18 +99,18 @@ layout: page
       <h6>Instructors</h6>
     </div>
 
-    <ul>
+    <ul class="xs:columns-2 md:columns-1">
       {% for instructor in instructors %}
-      <li class="flex mb-4">
-        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3"
+      <li class="sm:flex xs:block flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mb-3 md:mb-0 xs:mx-auto sm:mr-3 mr-3 sm:ml-0 ml-0"
           style="background-image: url({{instructor.img}});">
           &nbsp;
         </div>
-        <div>
+        <div class="xs:text-center sm:text-left text-left">
           <h6 class="capitalize text-sm font-bold">{{instructor.name}}</h6>
           <p class="capitalize text-xs mb-1">{{instructor.position}}</p>
-          <a href="{{instructor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg"
-              alt="LinkedIn"></a>
+          <a class="inline-block" href="{{instructor.linkedin_url}}" target="_blank"><img
+              src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
       {% endfor %}
@@ -124,17 +124,18 @@ layout: page
       <h6>Mentors</h6>
     </div>
 
-    <ul>
+    <ul class="xs:columns-2 md:columns-1">
       {% for mentor in mentors %}
-      <li class="flex mb-4">
-        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mr-3" style="background-image: url({{mentor.img}});">
+      <li class="sm:flex xs:block flex mb-4">
+        <div class="flex-shrink-0 bg-cover w-18 h-18 rounded-full mb-3 md:mb-0 xs:mx-auto sm:mr-3 mr-3 sm:ml-0 ml-0"
+          style="background-image: url({{mentor.img}});">
           &nbsp;
         </div>
-        <div>
+        <div class="xs:text-center sm:text-left text-left">
           <h6 class="capitalize text-sm font-bold">{{mentor.name}}</h6>
           <p class="capitalize text-xs mb-1">{{mentor.position}}</p>
-          <a href="{{mentor.linkedin_url}}" target="_blank"><img src="/assets/icons/linkedin-small.svg"
-              alt="LinkedIn"></a>
+          <a class="inline-block" href="{{mentor.linkedin_url}}" target="_blank"><img
+              src="/assets/icons/linkedin-small.svg" alt="LinkedIn"></a>
         </div>
       </li>
       {% endfor %}

@@ -1,9 +1,9 @@
 <!-- Start block header -->
-<header id="header" class="bg-st fixed w-full z-50">
-  <div class="container">
-    <div class="flex justify-between items-center">
+<header id="header" class="header">
+  <div class="container h-full">
+    <div class="header-content flex h-full">
       <!-- Start logo -->
-      <a href="/" class="block mr-6">
+      <a href="/" class="logo sm:block-i block sm:mr-6 self-center">
         <svg width="154" height="27" viewBox="0 0 154 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M44.4344 10.4556C43.7308 9.86898 42.8309 9.47869 41.8928 9.47869C41.1892 9.47869 40.2505 9.88838 40.2505 10.7101C40.2505 11.57 41.2874 11.9021 41.9516 12.1173L42.9291 12.4106C44.9822 13.0166 46.5657 14.0528 46.5657 16.4387C46.5657 17.9052 46.2136 19.4099 45.041 20.4074C43.8872 21.3843 42.3425 21.7952 40.8565 21.7952C38.9991 21.7952 37.1811 21.1698 35.6758 20.1141L37.3181 17.0247C38.2761 17.8652 39.41 18.55 40.7196 18.55C41.6189 18.55 42.577 18.1003 42.577 17.0635C42.577 15.9884 41.0717 15.6169 40.2505 15.383C37.8459 14.6988 36.2624 14.0722 36.2624 11.2185C36.2624 8.22729 38.3931 6.27173 41.3456 6.27173C42.8309 6.27173 44.6495 6.74137 45.9597 7.48374L44.4344 10.4556Z"
@@ -71,20 +71,35 @@
       <!-- End logo -->
 
       <!-- Start navigation -->
-      <nav class="mt-3">
+      <nav id="nav" class="nav sm:self-end sm:ml-auto w-full sm:w-auto" role="navigation">
         {%- assign default_paths = site.pages | map: "path" -%} {%- assign
         page_paths = site.header_pages | default: default_paths -%} {%- if
         page_paths -%}
-        <ul class="flex items-center capitalize font-bold text-xs">
+        <ul id="menu" class="nav-menu" tabindex="-1" aria-label="main navigation" hidden>
           {%- for path in site.data.navigation -%} {%- if path.title -%}
-          <li>
+          <li class="w-full xs:w-auto nav-item mr-6">
             <a href="{{ path.url | relative_url }}"
-              class="block text-white pb-3 mr-6 border-b-4 border-white border-opacity-0 hover:border-opacity-100 {% if path.url == page.url %} border-opacity-100 {% endif %}">
+              class="nav-link block text-white pb-3 border-b-4 border-white border-opacity-0 hover:border-opacity-100 {% if path.url == page.url %} border-opacity-100 {% endif %}">
               {{ path.title | escape }}
             </a>
           </li>
           {%- endif -%} {%- endfor -%}
         </ul>
+
+        <a href="#nav" class="nav-toggle sm:hidden" role="button" aria-expanded="false" aria-controls="menu">
+          <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+            <title>Toggle Menu</title>
+            <g>
+              <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+              <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+              <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+              <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+              <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+            </g>
+          </svg>
+        </a>
+
+        <div class="splash"></div>
         {%- endif -%}
       </nav>
       <!-- End navigation -->

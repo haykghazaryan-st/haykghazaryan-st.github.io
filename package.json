@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/haykghazaryan-st/st-arm-website#readme",
   "dependencies": {
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "tailwindcss": "^1.6.2"
   }
 }
